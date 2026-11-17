@@ -1,0 +1,35 @@
+{
+  "retrieved": "2026-11-14",
+  "who_files": {
+    "wfa_boys": "https://cdn.who.int/media/docs/default-source/child-growth/child-growth-standards/indicators/weight-for-age/expanded-tables/wfa-boys-zscore-expanded-tables.xlsx",
+    "wfa_girls": "https://cdn.who.int/media/docs/default-source/child-growth/child-growth-standards/indicators/weight-for-age/expanded-tables/wfa-girls-zscore-expanded-tables.xlsx",
+    "lhfa_boys": "https://cdn.who.int/media/docs/default-source/child-growth/child-growth-standards/indicators/length-height-for-age/expandable-tables/lhfa-boys-zscore-expanded-tables.xlsx",
+    "lhfa_girls": "https://cdn.who.int/media/docs/default-source/child-growth/child-growth-standards/indicators/length-height-for-age/expandable-tables/lhfa-girls-zscore-expanded-tables.xlsx",
+    "bfa_boys": "https://cdn.who.int/media/docs/default-source/child-growth/child-growth-standards/indicators/body-mass-index-for-age/expanded-tables/bfa-boys-zscore-expanded-tables.xlsx",
+    "bfa_girls": "https://cdn.who.int/media/docs/default-source/child-growth/child-growth-standards/indicators/body-mass-index-for-age/expanded-tables/bfa-girls-zscore-expanded-tables.xlsx",
+    "hcfa_boys": "https://cdn.who.int/media/docs/default-source/child-growth/child-growth-standards/indicators/head-circumference-for-age/expanded-tables/hcfa-boys-zscore-expanded-tables.xlsx",
+    "hcfa_girls": "https://cdn.who.int/media/docs/default-source/child-growth/child-growth-standards/indicators/head-circumference-for-age/expanded-tables/hcfa-girls-zscore-expanded-tables.xlsx",
+    "bfa5_boys": "https://cdn.who.int/media/docs/default-source/child-growth/growth-reference-5-19-years/bmi-for-age-%285-19-years%29/bmi-boys-z-who-2007-exp.xlsx",
+    "bfa5_girls": "https://cdn.who.int/media/docs/default-source/child-growth/growth-reference-5-19-years/bmi-for-age-%285-19-years%29/bmi-girls-z-who-2007-exp.xlsx",
+    "lhfa5_girls": "https://cdn.who.int/media/docs/default-source/child-growth/growth-reference-5-19-years/height-for-age-%285-19-years%29/hfa-girls-z-who-2007-exp.xlsx",
+    "wfa5_girls": "https://cdn.who.int/media/docs/default-source/child-growth/growth-reference-5-19-years/weight-for-age-%285-10-years%29/hfa-girls-z-who-2007-exp_7ea58763-36a2-436d-bef0-7fcfbadd2820.xlsx",
+    "lhfa5_boys": "https://cdn.who.int/media/docs/default-source/child-growth/growth-reference-5-19-years/height-for-age-%285-19-years%29/hfa-boys-z-who-2007-exp.xlsx",
+    "wfa5_boys": "https://cdn.who.int/media/docs/default-source/child-growth/growth-reference-5-19-years/weight-for-age-%285-10-years%29/hfa-boys-z-who-2007-exp_0ff9c43c-8cc0-4c23-9fc6-81290675e08b.xlsx"
+  },
+  "who_sha256": {
+    "wfa5_girls.xlsx": "d747e068fcef4238cbaf1c201dd7788f266d9903685f4495360614eed0153562",
+    "lhfa5_boys.xlsx": "d78fa8cafcab77dcb5f03d71506d92bdcb28f89c642816b6bb0eef466b007466",
+    "hcfa_boys.xlsx": "89a657bc466e85f6c8f2e5e7f4635e969bdcf982bb71e519273e43896a1c3314",
+    "bfa5_boys.xlsx": "0a60849673f34a06b8e2fe4defe5d00348de687b6c9fce0278f1525fff89eb6d",
+    "lhfa_boys.xlsx": "c4b1c9029ab9751a5f0888e32f35c7c0287a16d361885cf911ecf23b3f7f6b4f",
+    "bfa_girls.xlsx": "d3817262a383cdd02553b004f1c6110527d30b729c70501d032e71caadc17529",
+    "lhfa_girls.xlsx": "6aa2876319449a6b1f4d825848128902114ff53c67b92b86a0c5140846013059",
+    "wfa5_boys.xlsx": "a6ed0d9f3cfa209747afe49f7503b7cc24a1be6b6a8e7222e85a36b7850cb99f",
+    "bfa_boys.xlsx": "58dcb2abea0e04b1c4f8ad3511d05ec1bea03741f230ac127b93f929e4cc6fc8",
+    "bfa5_girls.xlsx": "66f5c6284b44579ad6135fc639f22c09e36fe5a695b04390377113f6a00deb72",
+    "hcfa_girls.xlsx": "8eec3770d1027ce1b3b96a7b89fd1e77070558a7791b17b4462cda8a813324a3",
+    "wfa_boys.xlsx": "b5b4748c6bfa5230e2eddafa1767629c349178b08d457f400b59422b8bfef86c",
+    "lhfa5_girls.xlsx": "df07ee16d3d2916569f1d869b7c874d7b880a41321d871215ed0254cb16679b3",
+    "wfa_girls.xlsx": "ee3ae12cb96c6c5541cdf43665c03ce6c984f877859a183a5f6104eb06a49a6e"
+  }
+}

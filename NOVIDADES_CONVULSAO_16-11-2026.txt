@@ -1,0 +1,41 @@
+DOSE PS — CRISE CONVULSIVA: ADULTO / PEDIÁTRICO / NEONATAL (16/11/2026)
+
+O QUE MUDOU
+- Emergências > Crise convulsiva (e Estado de mal epiléptico) agora tem três abas: Adulto, Pediátrico (>1 mês a <18 anos) e Neonatal (até 1 mês).
+- Todas as doses aparecem em mg E em mL, em caixa de fundo amarelo (mesmo padrão das drogas vasoativas), no modo claro e escuro.
+- Volumes calculados para: diazepam 5 mg/mL, lorazepam 2 mg/mL, midazolam 5 mg/mL, levetiracetam 100 mg/mL, fenitoína 50 mg/mL, fenobarbital 100 mg/mL. A concentração aparece abaixo de cada dose; se a ampola do serviço for diferente, recalcular o volume.
+- Pediatria: idade agora em ANOS e MESES (ex.: 9 anos e 0 meses). O app mostra a conversão ("9 anos (108 meses)"). Vale também para hipoglicemia e anafilaxia pediátricas.
+- Neonatal (só na crise convulsiva): peso 0,4–6 kg; fluxo com glicose 10% e gluconato de cálcio 10% (causas reversíveis), fenobarbital 20 mg/kg (primeira linha), dose adicional até 40 mg/kg total, levetiracetam ou fenitoína em segunda linha, midazolam em bolus e infusão (mL/h a 1 mg/mL). O fenobarbital mostra volume puro, volume diluído a 10 mg/mL e mL/h para correr em 20 min.
+- Hipoglicemia e anafilaxia continuam sem aba neonatal (não cobrem recém-nascido).
+
+REFERÊNCIAS NEONATAIS
+- ILAE 2023 (Pressler et al., Epilepsia 64:2550): https://doi.org/10.1111/epi.17745
+- West of Scotland 2022; UC Davis 2026; Mom Baby 2023 (links dentro do app).
+- Doses de levetiracetam neonatal variam entre protocolos (20–60 mg/kg); o app mostra 40–60 mg/kg e avisa.
+
+REVISAR ANTES DE USO CLÍNICO
+- Diluições neonatais (fenobarbital 10 mg/mL, midazolam 1 mg/mL) são exemplos: validar com a farmácia neonatal.
+- Limiares de glicemia e velocidade máxima da fenitoína neonatal seguem o protocolo do serviço.
+- Teste automatizado: sintaxe JS, cálculos dos três fluxos e renderização (celular, claro/escuro) sem erros. Validar no aparelho após publicar.
+
+PUBLICAÇÃO
+Arquivos alterados: emergencies.js, styles.css, sw.js (cache v3). Publicar todos os arquivos e atualizar duas vezes no Safari (ou limpar dados do site) se aparecer tela antiga.
+
+MENU LATERAL (16/11/2026)
+- Nova ordem: Meu espaço, Emergências, Doses adulto, Doses pediátricas, Feridas e curativos, Atenção Primária, Obstetrícia, Protocolos, Calculadoras clínicas, Drogas vasoativas, Procedimentos, Trombólise, Preencher APAC, Sobre, Entrar / criar conta.
+- MODO PCR e Início saíram do menu. O MODO PCR continua no card da tela inicial; para voltar ao Início, toque no título "Doses PS" no topo.
+- Ícones adicionados em Meu espaço, Feridas e curativos e Atenção Primária. Cache do app: menu-v4.
+
+APAC — BUSCA DE PROCEDIMENTO NA TABELA SIGTAP (16/11/2026)
+- Seção 3 (e procedimentos secundários): ao digitar o NOME, o app sugere procedimentos da tabela SIGTAP; ao tocar, preenche código e nome oficiais. Ao digitar o CÓDIGO (10 dígitos), preenche o nome e avisa se o código não existe na tabela.
+- A tabela NÃO vem embutida (é oficial, mensal, do DATASUS). Carregar uma vez em "Carregar tabela SIGTAP": aceita o ZIP da Tabela Unificada (sem extrair) ou o tb_procedimento.txt. Fica guardada no aparelho; nada é enviado. Atualizar quando sair nova competência.
+- Cache do app: apac-v5.
+
+APAC — TABELA DE REFERÊNCIA EMBUTIDA (16/11/2026)
+- O app agora traz embutida a tabela do ANEXO VIII · Tabela Nacional de Procedimentos SUS (Prefeitura de Camaçari/BA): 3.631 procedimentos, só código e nome (valores em R$ ignorados). Arquivo: sigtap-base.js.
+- Sem precisar carregar nada, a seção 3 da APAC já sugere nome e código. Carregar o SIGTAP do DATASUS continua opcional (para versão mais recente) e passa a ter prioridade; há botão para voltar à tabela do Anexo VIII.
+- Nomes ficam como no PDF (maiúsculas, alguns sem acento). Cache do app: apac-v6.
+
+ANDROID / CAPACITOR (16/11/2026)
+- Novo arquivo native-bridge.js: dentro do app Android, downloads (PDF da APAC, documentos da Atenção Primária, registro da PCR) abrem o menu de compartilhar; botão voltar fecha menu > Início > sai. No navegador não faz nada. Service worker não é registrado no app nativo. Cache web: native-v7.
+- Projeto de empacotamento: DosesPS-Android.zip (ver LEIA-ME.md).

@@ -1,0 +1,32 @@
+DOSE PS — REVISÃO DO CATÁLOGO — 11/11/2026
+
+Versão: 2026-11-11.2 | Fonte das doses: data/drugs.json, dentro do ZIP.
+O conteúdo remoto anterior do Supabase e o localStorage antigo NÃO substituem mais este catálogo.
+Primeiro acesso com rede para preencher cache offline; sempre publicar a pasta extraída do ZIP inteira.
+
+CORREÇÕES APLICADAS E CONFERIDAS COM REFERÊNCIAS:
+• Paracetamol pediátrico gotas 200 mg/mL: dose em gotas DESTACADA; 1 gota/kg/dose, máximo 35 gotas/dose para menores de 12 anos na referência Tylenol; 15 gotas/mL; de 6/6 h se necessário, máximo 5 tomadas/24h. Verificar bula da marca e idade; menos de 11 kg/2 anos: avaliação médica.
+• Removida qualquer apresentação 'Paracetamol IV' do catálogo local de medicamentos (sem remover o antídoto N-acetilcisteína IV para intoxicação por paracetamol).
+• Dipirona gotas 500 mg/mL: apresentação 20 gotas/mL e faixa pediátrica em gotas conforme bula Novalgina.
+• Dipirona solução oral 50 mg/mL: apresentação em mL, utilizando faixas de peso da bula Novalgina, não em gotas.
+• Ibuprofeno gotas 50 mg/mL e 100 mg/mL: dose em gotas, usando como referência 10 gotas/mL da Medley. ATENÇÃO: outros produtos podem ter gotas/mL diferente; confirmar bula.
+• Receituário: cálculos das soluções orais gota/ml corrigidos conforme referência e ressalvas.
+• NaCl 3%: retificada mistura de solução NaCl 20% + soro fisiológico 0,9%; de 15/85 incorreta para 11/89 (preparo ~3%). Referência Hospital Sírio-Libanês. Dupla checagem farmácia.
+• Service worker restaurado (o ZIP anterior tinha sw.js vazio), cache atualizado.
+
+REFERÊNCIAS:
+https://www.tylenol.com.br/alivio-seguro/instrucoes-de-dosagem/dosagem-para-bebes-e-criancas
+https://www.ache.com.br/produto/biosintetica-isentos-de-prescricao/paracetamol-gotas/
+https://www.novalgina.com.br/produtos/adulto/gotas/bula
+https://www.novalgina.com.br/produtos/infantil/solucao-oral/bula
+https://www.panvel.com/panvel/ibuprofeno-50mg-ml-30ml-medley-generico/564210/bula
+https://www.araujo.com.br/bula/Ibuprofeno-100mg/ml-Medley-Gen%C3%A9rico-Gotas-com-20ml
+https://guiafarmaceutico.hsl.org.br/Paginas/CLORETO-DE-S%C3%93DIO----INJETAVEL.aspx
+
+LIMITE DA AUDITORIA:
+O catálogo completo passou por verificação automatizada estrutural/aritmética de entradas e apresentações;
+NÃO equivale à checagem farmacêutica individual independente de TODOS os medicamentos ou esquemas de emergência.
+Nenhuma dose deve ser administrada sem avaliação médica, confirmação da concentração, via,
+formulação e protocolo institucional. As doses automáticas por peso não substituem ajuste por idade,
+indicação, função renal/hepática e contraindicações. Recomendam-se revisões clínicas especializadas de
+antibióticos, anticonvulsivantes, anestesia/IOT, drogas vasoativas e eletrólitos antes de uso assistencial.

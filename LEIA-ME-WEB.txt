@@ -1,0 +1,12 @@
+DOSES PS — VERSÃO WEB
+
+Este pacote mantém o aplicativo como site estático em HTML, CSS e JavaScript. Não contém projeto Android/iOS, APK ou dependências de Capacitor.
+
+COMO PUBLICAR
+1. Extraia o ZIP.
+2. Publique o conteúdo desta pasta em uma hospedagem estática com HTTPS, mantendo index.html e as subpastas/arquivos no mesmo nível relativo.
+3. Abra o endereço no navegador. Para instalar como atalho, use “Adicionar à tela inicial” no navegador do celular.
+
+O aplicativo mantém o service worker e o manifesto PWA para cache e instalação como atalho web. Login e sincronização de conta dependem de internet.
+
+Revise o conteúdo e os protocolos clínicos locais antes do uso assistencial.

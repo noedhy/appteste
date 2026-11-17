@@ -1,0 +1,29 @@
+DOSE PS — BLOCO 1 DE EMERGÊNCIAS (12/11/2026)
+
+Fonte de projeto: Dose_PS_EMERGENCIAS_ORGANIZADAS_12-11-2026.zip
+Versão local: 2026-11-12.3
+
+NOVOS FLUXOS PARA ADULTOS
+1. Emergências hipertensivas: com lesão aguda; sem lesão aguda; edema agudo de pulmão; dissecção de aorta; AVC; gestação/puerpério (alerta/encaminhamento).
+2. Arritmias: taquicardia instável; TSV estreita regular estável; QRS largo estável; bradicardia sintomática; FA/flutter com resposta rápida.
+3. Asma: leve, moderada, grave e ameaça à vida.
+4. DPOC: exacerbação moderada, grave e com acidose hipercápnica/VNI.
+
+Cada cenário apresenta reconhecimento, fluxograma passo a passo, dose, via, exemplo de preparo quando aplicável, cautelas, reavaliação e critérios de regulação.
+Calculadora de bomba opcional: nitroglicerina, nitroprussiato, esmolol, dopamina, adrenalina em infusão e amiodarona em manutenção. A dose precisa ser INFORMADA pelo médico. Fórmula baseada na concentração explicitada na tela.
+
+MEDIDAS DE SEGURANÇA
+- Apenas adultos. Não extrapolar para pediatria ou neonatologia.
+- A bomba é uma ferramenta matemática de conferência, não prescrição automática.
+- Conferir apresentação da ampola, concentração final, diluente, compatibilidade, indicações, contraindicações e política do serviço.
+- Evitar agentes bloqueadores do nó AV, inclusive amiodarona IV, em FA pré-excitada.
+- Na hipertensão grave sem lesão de órgão-alvo, não usar anti-hipertensivo IV pelo número da PA isoladamente.
+- Sinais de insuficiência respiratória iminente requerem equipe de via aérea e UTI.
+- Recomendações GINA 2026, GOLD 2026, AHA 2025, Diretriz Brasileira HAS 2025 e MS Brasil; links no próprio aplicativo.
+
+ESCOPO E LIMITES
+- Orientação clínica destinada a profissionais. Não validado prospectivamente como dispositivo médico.
+- Exemplos de diluição são referências, não substituem a farmácia do hospital e protocolos institucionais.
+- Gestação/puerpério e AVC possuem tratamentos específicos, não é seguro atribuir a todos o esquema adulto genérico.
+- Demais temas da lista de emergências permanecem sinalizados como em preparação.
+- A hospedagem Netlify só atualiza após novo deploy. O service worker foi versionado para reduzir cache antigo.

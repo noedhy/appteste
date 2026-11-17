@@ -1,0 +1,11 @@
+DOSE PS - Exportação de 16/11/2026
+
+Inclui MODO PCR adulto, pediátrico e neonatal, som no volume máximo do aplicativo e página Sobre atualizada.
+
+Para hospedar: extraia este RAR e envie todo o conteúdo da pasta Dose_PS à pasta pública da sua hospedagem, mantendo index.html na raiz. Use HTTPS para permitir recursos como instalação e funcionamento offline após o primeiro carregamento.
+
+Não basta abrir index.html diretamente como arquivo no celular: o aplicativo deve ser servido por uma hospedagem web.
+
+Login, administração e recursos em nuvem dependem do Supabase já configurado. Se mudar de domínio, confira as URLs autorizadas de autenticação no Supabase. Este pacote não inclui uma cópia do banco de dados nem contas de usuários.
+
+No MODO PCR, ajuste também o volume de mídia do aparelho e mantenha a tela aberta.

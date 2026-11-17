@@ -1,0 +1,37 @@
+DOSE PS — CENTRAL DE EMERGÊNCIAS, versão 2026-11-12.2
+
+Base: Dose_PS_CARTOES_SUBMENUS_CORRIGIDOS_12-11-2026.zip
+
+O QUE FOI IMPLEMENTADO
+- Menu Emergências reorganizado em 10 categorias com 53 temas.
+- Busca por assunto, sinônimos e categoria, sem distinção de acentos.
+- Navegação por categoria -> assunto -> página detalhada, com opção de voltar.
+- Telas responsivas no modo claro e escuro; sem acesso de rede necessário para navegar.
+- Três fluxos existentes preservados: crise convulsiva/estado de mal, hipoglicemia e anafilaxia.
+- Novo fluxo de emergência hipertensiva (adultos), com seis cenários: geral com lesão de órgão-alvo, grave sem lesão, edema agudo de pulmão hipertensivo, dissecção de aorta, AVC e gestação/puerpério. Possui referências, metas por situação, cautelas, regulação e botão de acesso ao módulo de drogas vasoativas para bomba de infusão.
+- Atalhos para RCP, hipercalemia, hipocalemia e hiponatremia dentro das seções apropriadas.
+- Itens sem protocolo validado são identificados como 'Em preparação', sem doses presumidas ou tratamento improvisado.
+
+SITUAÇÃO DO CATÁLOGO
+53 entradas distribuídas em 10 categorias:
+4 fluxos diretamente disponíveis (hipertensão, crise convulsiva, hipoglicemia, anafilaxia),
+5 links para módulos já existentes,
+2 atalhos parciais para cenários dentro da hipertensão,
+42 conteúdos listados para implementação futura.
+
+SEGURANÇA
+Os fluxos são apoio à decisão, não prescrição automática. Confirmar doses, apresentações, contraindicações, diretrizes e protocolo institucional. A página de hipertensão é voltada a adultos e não deve substituir protocolos obstétricos ou de AVC.
+
+REFERÊNCIAS PARA A NOVA PÁGINA DE HIPERTENSÃO
+- Guideline ACC/AHA 2025: https://www.jacc.org/doi/10.1016/j.jacc.2025.05.007
+- Ministério da Saúde, HAS aguda: https://linhasdecuidado.saude.gov.br/portal/hipertensao-arterial-sistemica-%28HAS%29-no-adulto/unidade-hospitalar/crise-hipertensiva/pacientes-com-lesao-de-orgao-alvo
+- ACC/AHA 2022, síndrome aórtica: https://pmc.ncbi.nlm.nih.gov/articles/PMC9876736/
+
+TESTES
+- Sintaxe de JavaScript verificada (Node.js).
+- Organização verificada (10 categorias, 53 títulos exclusivos, 6 cenários hipertensivos).
+- Ações de navegação e renderização visual testadas em prévia isolada com navegador automatizado (desktop e celular; claro e escuro).
+- Teste de ponta a ponta do aplicativo inteiro não foi realizado no navegador automatizado devido a restrição de navegação do ambiente. Validar após publicação.
+
+PUBLICAÇÃO
+Extraia o ZIP e envie os arquivos para o seu site do Netlify preservando index.html na raiz. O Service Worker e a versão do catálogo foram incrementados para forçar a atualização dos arquivos em cache. Verificar identificação da versão local 2026-11-12.2.

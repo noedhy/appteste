@@ -1,0 +1,39 @@
+DOSE PS — EMERGÊNCIAS | BLOCO 2
+Versão local: 2026-11-12.4
+Base: Dose_PS_EMERGENCIAS_BLOCO1_COMPLETO_12-11-2026.zip
+
+NOVOS PROTOCOLOS PARA ADULTOS
+1. Cetoacidose diabética (CAD): CAD confirmada; CAD grave/choque; CAD euglicêmica associada a iSGLT2.
+2. Estado hiperglicêmico hiperosmolar (EHH): isolado; misto CAD/EHH; idoso/IC/DRC.
+3. Sepse e choque séptico: provável sem choque; choque séptico; choque refratário.
+4. Choque hipovolêmico: hemorrágico/trauma; não hemorrágico.
+Total: 11 cenários novos, com fluxos, reconhecimento, medicamentos e preparos de referência, monitorização e regulação.
+
+CALCULADORAS (NÃO SÃO PRESCRIÇÃO AUTOMÁTICA)
+CAD/EHH: insulina regular IV com peso em barra horizontal e campo numérico, potássio obrigatório, seleção da dose prescrita e confirmação de preparo 1 UI/mL. Bloqueia K <3,5 mmol/L e exige revisão de K=3,5.
+Sepse com choque: volume 30 mL/kg apresentado como REFERÊNCIA CONDICIONAL e sem definir ordem automática; noradrenalina com dose prescrita e inserção obrigatória dos mg de BASE e volume FINAL. Valores fora de faixas configuradas são bloqueados.
+
+SEGURANÇA
+- Revisar cada medicamento, situação clínica e prevalência local antes de implantação assistencial.
+- Não aplicar protocolos adultos a crianças, gestantes ou recém-nascidos.
+- Não aplicar volume 30 mL/kg na sepse sem choque ou sem hipoperfusão.
+- Não iniciar insulina intravenosa em hipocalemia.
+- Não tratar hiperglicemia isolada automaticamente como CAD/EHH.
+- Noradrenalina: conferir se mg da ampola correspondem à base ou ao sal (bitartrato).
+- Fontes externas ficam disponíveis como links, mas consulta requer internet.
+- O ZIP permite uso offline do conteúdo estático conforme cache do navegador; nunca presumir disponibilidade offline sem teste no aparelho.
+
+REFERÊNCIAS
+- ADA Standards of Care 2026 — hospital: https://diabetesjournals.org/care/article/49/Supplement_1/S339/163925/16-Diabetes-Care-in-the-Hospital-Standards-of-Care
+- Consenso de crises hiperglicêmicas 2024: https://doi.org/10.2337/dci24-0032
+- Surviving Sepsis Campaign 2026: https://sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-campaign-international-guidelines-for-management-of-sepsis-and-septic-shock-2026
+
+TESTES EXECUTADOS
+- Sintaxe dos scripts JS; integridade de arquivos e ativos; validação estrutural de cenários.
+- Navegação e interface simulada (Chrome em prévia isolada), em claro e escuro.
+- Cálculo de insulina e bloqueio por potássio baixo; bloqueio para EHH isolado com taxa 0,1 UI/kg/h.
+- Cálculo de noradrenalina com base e volume final informados; ausência dessa calculadora em sepse sem choque.
+
+LIMITAÇÕES
+- Teste integrado do aplicativo completo hospedado no Netlify/Safari ainda necessário.
+- O aplicativo não está clinicamente validado como dispositivo médico: recomenda-se revisão formal por médico habilitado, farmacêutico e protocolos institucionais.

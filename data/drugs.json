@@ -1,0 +1,5186 @@
+{
+  "drugs": [
+    {
+      "n": "Adrenalina (PCR)",
+      "g": "Reanimação",
+      "pop": "p",
+      "r": "IV/IO",
+      "u": "mg",
+      "c": 0.1,
+      "k": [
+        0.01,
+        0.01
+      ],
+      "mx": 1,
+      "dil": "Ampola 1 mg/mL: 1 mL + 9 mL AD = 0,1 mg/mL (1:10.000). Flush com SF.",
+      "o": "Repetir a cada 3–5 min."
+    },
+    {
+      "n": "Adrenalina (anafilaxia IM)",
+      "g": "Antialérgico",
+      "pop": "p",
+      "r": "IM",
+      "u": "mg",
+      "c": 1,
+      "k": [
+        0.01,
+        0.01
+      ],
+      "mx": 0.5,
+      "dil": "Sem diluir (1 mg/mL). Coxa lateral.",
+      "o": "Repetir em 5–15 min se necessário."
+    },
+    {
+      "n": "Amiodarona (FV/TV sem pulso)",
+      "g": "Reanimação",
+      "pop": "p",
+      "r": "IV/IO",
+      "u": "mg",
+      "c": 50,
+      "k": [
+        5,
+        5
+      ],
+      "mx": 300,
+      "dil": "Na PCR: bolus direto, flush com SF. Fora da PCR: diluir em SG 5%.",
+      "o": "Pode repetir até 3 doses."
+    },
+    {
+      "n": "Atropina",
+      "g": "Reanimação",
+      "pop": "p",
+      "r": "IV/IO",
+      "u": "mg",
+      "c": 0.5,
+      "k": [
+        0.02,
+        0.02
+      ],
+      "mx": 0.5,
+      "dil": "Ampola 0,5 mg/mL (1 mL), sem diluir.",
+      "o": "Dose mínima de 0,1 mg adotada em alguns protocolos."
+    },
+    {
+      "n": "Adenosina",
+      "g": "Arritmia",
+      "pop": "p",
+      "r": "IV/IO",
+      "u": "mg",
+      "c": 3,
+      "k": [
+        0.1,
+        0.1
+      ],
+      "mx": 6,
+      "dil": "Bolus rápido seguido de flush de 5–10 mL de SF.",
+      "o": "2ª dose: 0,2 mg/kg (máx. 12 mg)."
+    },
+    {
+      "n": "Diazepam",
+      "g": "Neurologia",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 5,
+      "k": [
+        0.2,
+        0.3
+      ],
+      "mx": 10,
+      "dil": "Não diluir. IV lento (máx. 5 mg/min).",
+      "o": "Risco de depressão respiratória."
+    },
+    {
+      "n": "Midazolam",
+      "g": "Neurologia",
+      "pop": "p",
+      "r": "IV/IM",
+      "u": "mg",
+      "c": 5,
+      "k": [
+        0.1,
+        0.2
+      ],
+      "mx": 10,
+      "dil": "Pode diluir em SF para titulação.",
+      "o": "Convulsão: 0,2 mg/kg IM."
+    },
+    {
+      "n": "Dipirona",
+      "g": "Analgesia",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 500,
+      "k": [
+        10,
+        25
+      ],
+      "mx": 1000,
+      "dil": "Diluir em 8–10 mL de AD, IV lento.",
+      "o": "Evitar em lactentes < 3 meses."
+    },
+    {
+      "n": "Ondansetrona",
+      "g": "Antiemético",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 2,
+      "k": [
+        0.1,
+        0.15
+      ],
+      "mx": 4,
+      "dil": "IV lento; pode diluir em 10 mL de SF.",
+      "o": ""
+    },
+    {
+      "n": "Ceftriaxona",
+      "g": "Antibiótico",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 100,
+      "k": [
+        50,
+        100
+      ],
+      "mx": 2000,
+      "dil": "Reconstituir 1 g em 10 mL de AD (100 mg/mL).",
+      "o": "Meningite: 100 mg/kg (máx. 4 g/dia)."
+    },
+    {
+      "n": "Dexametasona",
+      "g": "Corticoide",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 4,
+      "k": [
+        0.15,
+        0.6
+      ],
+      "mx": 16,
+      "dil": "Sem diluir ou em SF.",
+      "o": "Crupe: 0,6 mg/kg dose única."
+    },
+    {
+      "n": "Morfina",
+      "g": "Analgesia",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 1,
+      "k": [
+        0.05,
+        0.1
+      ],
+      "mx": 5,
+      "dil": "Diluir 1 mL (10 mg) + 9 mL AD = 1 mg/mL.",
+      "o": "Titular conforme resposta."
+    },
+    {
+      "n": "Fentanil",
+      "g": "Analgesia",
+      "pop": "p",
+      "r": "IV",
+      "u": "mcg",
+      "c": 50,
+      "k": [
+        1,
+        2
+      ],
+      "mx": 100,
+      "dil": "Sem diluir (50 mcg/mL), IV lento.",
+      "o": "Tórax rígido se infusão rápida."
+    },
+    {
+      "n": "Cetamina",
+      "g": "Sedação/IOT",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 50,
+      "k": [
+        1,
+        2
+      ],
+      "mx": 0,
+      "dil": "Pode diluir 1:1 em SF.",
+      "o": "Indução IOT: 1–2 mg/kg."
+    },
+    {
+      "n": "Etomidato",
+      "g": "Sedação/IOT",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 2,
+      "k": [
+        0.3,
+        0.3
+      ],
+      "mx": 0,
+      "dil": "Sem diluir.",
+      "o": "Evitar na sepse grave."
+    },
+    {
+      "n": "Rocurônio",
+      "g": "Bloqueador",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 10,
+      "k": [
+        1,
+        1.2
+      ],
+      "mx": 0,
+      "dil": "Sem diluir.",
+      "o": ""
+    },
+    {
+      "n": "Succinilcolina",
+      "g": "Bloqueador",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 20,
+      "k": [
+        1,
+        2
+      ],
+      "mx": 0,
+      "dil": "Pó 100 mg + 5 mL de AD = 20 mg/mL (conferir a bula do fabricante).",
+      "o": "Contraindicada em hipercalemia e história de hipertermia maligna."
+    },
+    {
+      "n": "Glicose (hipoglicemia)",
+      "g": "Metabólico",
+      "pop": "p",
+      "r": "IV/IO",
+      "u": "mg",
+      "c": 100,
+      "k": [
+        500,
+        1000
+      ],
+      "mx": 25000,
+      "dil": "SG 10% (100 mg/mL): 5–10 mL/kg.",
+      "o": "Reavaliar glicemia em 10–15 min."
+    },
+    {
+      "n": "Naloxona",
+      "g": "Antídoto",
+      "pop": "p",
+      "r": "IV/IM",
+      "u": "mg",
+      "c": 0.4,
+      "k": [
+        0.01,
+        0.1
+      ],
+      "mx": 2,
+      "dil": "Sem diluir.",
+      "o": "Repetir a cada 2–3 min."
+    },
+    {
+      "n": "Bicarbonato de sódio 8,4%",
+      "g": "Metabólico",
+      "pop": "p",
+      "r": "IV/IO",
+      "u": "mEq",
+      "c": 1,
+      "k": [
+        1,
+        1
+      ],
+      "mx": 50,
+      "dil": "Diluir 1:1 com AD em lactentes.",
+      "o": ""
+    },
+    {
+      "n": "Gluconato de cálcio 10%",
+      "g": "Metabólico",
+      "pop": "p",
+      "r": "IV/IO",
+      "u": "mg",
+      "c": 100,
+      "k": [
+        60,
+        60
+      ],
+      "mx": 2000,
+      "dil": "Diluir em SF/SG; infundir lento (5–10 min).",
+      "o": "Hipercalemia, hipocalcemia."
+    },
+    {
+      "n": "Sulfato de magnésio 50%",
+      "g": "Metabólico",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 500,
+      "k": [
+        25,
+        50
+      ],
+      "mx": 2000,
+      "dil": "Diluir em SF e infundir em 15–20 min.",
+      "o": "Asma grave, torsades."
+    },
+    {
+      "n": "Adrenalina (PCR)",
+      "g": "Reanimação",
+      "pop": "a",
+      "r": "IV/IO",
+      "u": "mg",
+      "c": 1,
+      "f": [
+        1,
+        1
+      ],
+      "dil": "Ampola 1 mg/mL. Bolus + flush 20 mL de SF.",
+      "o": "A cada 3–5 min."
+    },
+    {
+      "n": "Adrenalina (anafilaxia IM)",
+      "g": "Antialérgico",
+      "pop": "a",
+      "r": "IM",
+      "u": "mg",
+      "c": 1,
+      "f": [
+        0.3,
+        0.5
+      ],
+      "dil": "Sem diluir.",
+      "o": "Repetir em 5–15 min."
+    },
+    {
+      "n": "Amiodarona",
+      "g": "Reanimação",
+      "pop": "a",
+      "r": "IV/IO",
+      "u": "mg",
+      "c": 50,
+      "f": [
+        300,
+        300
+      ],
+      "dil": "Bolus direto na PCR. Fora da PCR, diluir em 100 mL de SG 5%.",
+      "o": "2ª dose 150 mg."
+    },
+    {
+      "n": "Atropina",
+      "g": "Arritmia",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 0.5,
+      "f": [
+        1,
+        1
+      ],
+      "dil": "Ampola 0,5 mg/mL (1 mL), sem diluir.",
+      "o": "Bradicardia; repetir a cada 3–5 min, máx. 3 mg."
+    },
+    {
+      "n": "Adenosina",
+      "g": "Arritmia",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 3,
+      "f": [
+        6,
+        12
+      ],
+      "dil": "Bolus rápido + flush de 20 mL de SF.",
+      "o": "1ª dose 6 mg, 2ª dose 12 mg."
+    },
+    {
+      "n": "Dipirona",
+      "g": "Analgesia",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 500,
+      "f": [
+        1000,
+        1000
+      ],
+      "dil": "Diluir em 8–10 mL de AD.",
+      "o": ""
+    },
+    {
+      "n": "Morfina",
+      "g": "Analgesia",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 1,
+      "f": [
+        2,
+        4
+      ],
+      "dil": "Diluir 1 mL (10 mg) + 9 mL AD = 1 mg/mL.",
+      "o": "Titular."
+    },
+    {
+      "n": "Fentanil",
+      "g": "Analgesia",
+      "pop": "a",
+      "r": "IV",
+      "u": "mcg",
+      "c": 50,
+      "f": [
+        50,
+        100
+      ],
+      "dil": "Sem diluir.",
+      "o": ""
+    },
+    {
+      "n": "Ondansetrona",
+      "g": "Antiemético",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 2,
+      "f": [
+        4,
+        8
+      ],
+      "dil": "IV lento; pode diluir em 10 mL de SF.",
+      "o": ""
+    },
+    {
+      "n": "Diazepam",
+      "g": "Neurologia",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 5,
+      "f": [
+        5,
+        10
+      ],
+      "dil": "Não diluir. Máx. 5 mg/min.",
+      "o": ""
+    },
+    {
+      "n": "Midazolam",
+      "g": "Neurologia",
+      "pop": "a",
+      "r": "IV/IM",
+      "u": "mg",
+      "c": 5,
+      "f": [
+        5,
+        10
+      ],
+      "dil": "Pode diluir em SF.",
+      "o": "Convulsão: 10 mg IM se > 40 kg."
+    },
+    {
+      "n": "Haloperidol",
+      "g": "Psiquiatria",
+      "pop": "a",
+      "r": "IM",
+      "u": "mg",
+      "c": 5,
+      "f": [
+        5,
+        5
+      ],
+      "dil": "Sem diluir.",
+      "o": "Não usar IV."
+    },
+    {
+      "n": "Naloxona",
+      "g": "Antídoto",
+      "pop": "a",
+      "r": "IV/IM",
+      "u": "mg",
+      "c": 0.4,
+      "f": [
+        0.4,
+        2
+      ],
+      "dil": "Sem diluir.",
+      "o": "Titular 0,4 mg por vez."
+    },
+    {
+      "n": "Furosemida",
+      "g": "Diurético",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 10,
+      "f": [
+        20,
+        40
+      ],
+      "dil": "Sem diluir, IV lento.",
+      "o": ""
+    },
+    {
+      "n": "Ceftriaxona",
+      "g": "Antibiótico",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 100,
+      "f": [
+        1000,
+        2000
+      ],
+      "dil": "Reconstituir 1 g em 10 mL de AD.",
+      "o": ""
+    },
+    {
+      "n": "Dexametasona",
+      "g": "Corticoide",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 4,
+      "f": [
+        4,
+        10
+      ],
+      "dil": "Sem diluir ou em SF.",
+      "o": ""
+    },
+    {
+      "n": "Glicose 50%",
+      "g": "Metabólico",
+      "pop": "a",
+      "r": "IV",
+      "u": "g",
+      "c": 0.5,
+      "f": [
+        25,
+        25
+      ],
+      "dil": "SG 50%: 50 mL = 25 g. Preferir veia calibrosa.",
+      "o": "Hipoglicemia."
+    },
+    {
+      "n": "Gluconato de cálcio 10%",
+      "g": "Metabólico",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 100,
+      "f": [
+        1000,
+        2000
+      ],
+      "dil": "Diluir em 50–100 mL, infundir lento.",
+      "o": ""
+    },
+    {
+      "n": "Sulfato de magnésio 50%",
+      "g": "Metabólico",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 500,
+      "f": [
+        1000,
+        2000
+      ],
+      "dil": "Diluir em 100 mL de SF, 15–20 min.",
+      "o": "Asma grave: 2 g."
+    },
+    {
+      "n": "Cetamina",
+      "g": "Sedação/IOT",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 50,
+      "k": [
+        1,
+        2
+      ],
+      "mx": 0,
+      "dil": "Pode diluir 1:1.",
+      "o": ""
+    },
+    {
+      "n": "Etomidato",
+      "g": "Sedação/IOT",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 2,
+      "k": [
+        0.3,
+        0.3
+      ],
+      "mx": 0,
+      "dil": "Sem diluir.",
+      "o": ""
+    },
+    {
+      "n": "Rocurônio",
+      "g": "Bloqueador",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 10,
+      "k": [
+        1,
+        1.2
+      ],
+      "mx": 0,
+      "dil": "Sem diluir.",
+      "o": ""
+    },
+    {
+      "n": "Succinilcolina",
+      "g": "Bloqueador",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 20,
+      "k": [
+        1,
+        1.5
+      ],
+      "mx": 0,
+      "dil": "Pó 100 mg + 5 mL de AD = 20 mg/mL (conferir a bula do fabricante).",
+      "o": "Contraindicada em hipercalemia."
+    },
+    {
+      "n": "Prometazina",
+      "g": "Antialérgico",
+      "pop": "p",
+      "r": "IM profunda",
+      "u": "mg",
+      "c": 25,
+      "k": [
+        0.25,
+        0.5
+      ],
+      "mx": 25,
+      "dil": "Sem diluir. Nunca IV (risco de necrose).",
+      "o": "Contraindicada em menores de 2 anos. Sedação."
+    },
+    {
+      "n": "Prometazina",
+      "g": "Antialérgico",
+      "pop": "a",
+      "r": "IM profunda",
+      "u": "mg",
+      "c": 25,
+      "f": [
+        25,
+        50
+      ],
+      "dil": "Sem diluir. Nunca IV (risco de necrose).",
+      "o": "Sedação e hipotensão."
+    },
+    {
+      "n": "Desloratadina",
+      "g": "Antialérgico",
+      "pop": "p",
+      "r": "VO",
+      "u": "mg",
+      "c": 0.5,
+      "f": [
+        1.25,
+        2.5
+      ],
+      "dil": "Xarope 0,5 mg/mL.",
+      "o": "1–5 anos: 1,25 mg (2,5 mL); 6–11 anos: 2,5 mg (5 mL). 1x/dia."
+    },
+    {
+      "n": "Desloratadina",
+      "g": "Antialérgico",
+      "pop": "a",
+      "r": "VO",
+      "u": "mg",
+      "c": 0.5,
+      "f": [
+        5,
+        5
+      ],
+      "dil": "Comprimido 5 mg ou xarope 0,5 mg/mL (10 mL).",
+      "o": "1x/dia."
+    },
+    {
+      "n": "Hidroxizina",
+      "g": "Antialérgico",
+      "pop": "p",
+      "r": "VO",
+      "u": "mg",
+      "c": 2,
+      "k": [
+        0.5,
+        0.5
+      ],
+      "mx": 25,
+      "dil": "Xarope 2 mg/mL.",
+      "o": "A cada 6–8 h. Sedação."
+    },
+    {
+      "n": "Hidroxizina",
+      "g": "Antialérgico",
+      "pop": "a",
+      "r": "VO",
+      "u": "mg",
+      "c": 0,
+      "f": [
+        25,
+        25
+      ],
+      "dil": "Comprimido 25 mg.",
+      "o": "A cada 6–8 h."
+    },
+    {
+      "n": "Loratadina",
+      "g": "Antialérgico",
+      "pop": "p",
+      "r": "VO",
+      "u": "mg",
+      "c": 1,
+      "f": [
+        5,
+        10
+      ],
+      "dil": "Xarope 1 mg/mL.",
+      "o": "2–11 anos: até 30 kg 5 mg; acima de 30 kg 10 mg. 1x/dia."
+    },
+    {
+      "n": "Loratadina",
+      "g": "Antialérgico",
+      "pop": "a",
+      "r": "VO",
+      "u": "mg",
+      "c": 0,
+      "f": [
+        10,
+        10
+      ],
+      "dil": "Comprimido 10 mg.",
+      "o": "1x/dia."
+    },
+    {
+      "n": "Dexclorfeniramina",
+      "g": "Antialérgico",
+      "pop": "p",
+      "r": "VO",
+      "u": "mg",
+      "c": 0.4,
+      "k": [
+        0.04,
+        0.05
+      ],
+      "mx": 2,
+      "dil": "Xarope 0,4 mg/mL (2 mg/5 mL).",
+      "o": "Evitar em menores de 2 anos. A cada 6–8 h."
+    },
+    {
+      "n": "Dexclorfeniramina",
+      "g": "Antialérgico",
+      "pop": "a",
+      "r": "VO",
+      "u": "mg",
+      "c": 0.4,
+      "f": [
+        2,
+        2
+      ],
+      "dil": "Xarope ou comprimido de 2 mg.",
+      "o": "A cada 6–8 h."
+    },
+    {
+      "n": "Metoclopramida",
+      "g": "Antiemético",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 5,
+      "k": [
+        0.1,
+        0.15
+      ],
+      "mx": 10,
+      "dil": "IV lento em 3 min.",
+      "o": "Contraindicada em menores de 1 ano. Risco extrapiramidal."
+    },
+    {
+      "n": "Metoclopramida",
+      "g": "Antiemético",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 5,
+      "f": [
+        10,
+        10
+      ],
+      "dil": "IV lento em 3 min; pode diluir em SF.",
+      "o": "Risco extrapiramidal (tratar com biperideno)."
+    },
+    {
+      "n": "Bromoprida",
+      "g": "Antiemético",
+      "pop": "a",
+      "r": "IV/IM",
+      "u": "mg",
+      "c": 5,
+      "f": [
+        10,
+        10
+      ],
+      "dil": "IV lento, sem diluir.",
+      "o": "Risco extrapiramidal."
+    },
+    {
+      "n": "Domperidona",
+      "g": "Antiemético",
+      "pop": "p",
+      "r": "VO",
+      "u": "mg",
+      "c": 1,
+      "k": [
+        0.25,
+        0.5
+      ],
+      "mx": 10,
+      "dil": "Suspensão 1 mg/mL.",
+      "o": "A cada 8 h, antes das refeições."
+    },
+    {
+      "n": "Domperidona",
+      "g": "Antiemético",
+      "pop": "a",
+      "r": "VO",
+      "u": "mg",
+      "c": 0,
+      "f": [
+        10,
+        10
+      ],
+      "dil": "Comprimido 10 mg.",
+      "o": "A cada 8 h."
+    },
+    {
+      "n": "Hioscina (butilbrometo)",
+      "g": "Gastro",
+      "pop": "p",
+      "r": "IV/IM",
+      "u": "mg",
+      "c": 20,
+      "k": [
+        0.3,
+        0.6
+      ],
+      "mx": 20,
+      "dil": "Sem diluir.",
+      "o": "Cólicas. Efeito anticolinérgico."
+    },
+    {
+      "n": "Hioscina (butilbrometo)",
+      "g": "Gastro",
+      "pop": "a",
+      "r": "IV/IM",
+      "u": "mg",
+      "c": 20,
+      "f": [
+        20,
+        20
+      ],
+      "dil": "Sem diluir.",
+      "o": "Cólicas. Evitar em glaucoma de ângulo fechado."
+    },
+    {
+      "n": "Omeprazol",
+      "g": "Gastro",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 4,
+      "k": [
+        0.5,
+        1
+      ],
+      "mx": 40,
+      "dil": "Reconstituir 40 mg em 10 mL (4 mg/mL), diluir em SF e infundir em 20–30 min.",
+      "o": "1x/dia."
+    },
+    {
+      "n": "Omeprazol",
+      "g": "Gastro",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 4,
+      "f": [
+        40,
+        40
+      ],
+      "dil": "Reconstituir 40 mg em 10 mL (4 mg/mL), diluir em 100 mL de SF; 20–30 min.",
+      "o": "1x/dia."
+    },
+    {
+      "n": "Nitazoxanida",
+      "g": "Antiparasitário",
+      "pop": "p",
+      "r": "VO",
+      "u": "mg",
+      "c": 20,
+      "k": [
+        7.5,
+        7.5
+      ],
+      "mx": 500,
+      "dil": "Suspensão 20 mg/mL (100 mg/5 mL).",
+      "o": "A cada 12 h por 3 dias, com alimento. Ref.: 1–3 anos 100 mg; 4–11 anos 200 mg."
+    },
+    {
+      "n": "Nitazoxanida",
+      "g": "Antiparasitário",
+      "pop": "a",
+      "r": "VO",
+      "u": "mg",
+      "c": 0,
+      "f": [
+        500,
+        500
+      ],
+      "dil": "Comprimido 500 mg.",
+      "o": "A cada 12 h por 3 dias, com alimento."
+    },
+    {
+      "n": "Albendazol",
+      "g": "Antiparasitário",
+      "pop": "p",
+      "r": "VO",
+      "u": "mg",
+      "c": 40,
+      "f": [
+        400,
+        400
+      ],
+      "dil": "Suspensão 40 mg/mL (10 mL).",
+      "o": "Dose única (a partir de 2 anos)."
+    },
+    {
+      "n": "Albendazol",
+      "g": "Antiparasitário",
+      "pop": "a",
+      "r": "VO",
+      "u": "mg",
+      "c": 0,
+      "f": [
+        400,
+        400
+      ],
+      "dil": "Comprimido 400 mg.",
+      "o": "Dose única."
+    },
+    {
+      "n": "Ivermectina",
+      "g": "Antiparasitário",
+      "pop": "p",
+      "r": "VO",
+      "u": "mg",
+      "c": 0,
+      "k": [
+        0.2,
+        0.2
+      ],
+      "mx": 0,
+      "dil": "Comprimido 6 mg (200 mcg/kg). Não usar abaixo de 15 kg.",
+      "o": "Dose única, em jejum."
+    },
+    {
+      "n": "Ivermectina",
+      "g": "Antiparasitário",
+      "pop": "a",
+      "r": "VO",
+      "u": "mg",
+      "c": 0,
+      "k": [
+        0.2,
+        0.2
+      ],
+      "mx": 0,
+      "dil": "Comprimido 6 mg (200 mcg/kg).",
+      "o": "Dose única, em jejum."
+    },
+    {
+      "n": "Metronidazol",
+      "g": "Antibiótico",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 5,
+      "k": [
+        7.5,
+        10
+      ],
+      "mx": 500,
+      "dil": "Solução pronta 5 mg/mL; infundir em 30–60 min.",
+      "o": "A cada 8 h."
+    },
+    {
+      "n": "Metronidazol",
+      "g": "Antibiótico",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 5,
+      "f": [
+        500,
+        500
+      ],
+      "dil": "Solução pronta 5 mg/mL; infundir em 30–60 min.",
+      "o": "A cada 8 h."
+    },
+    {
+      "n": "Amoxicilina",
+      "g": "Antibiótico",
+      "pop": "p",
+      "r": "VO",
+      "u": "mg",
+      "c": 50,
+      "k": [
+        16,
+        25
+      ],
+      "mx": 1000,
+      "dil": "Suspensão 250 mg/5 mL (50 mg/mL).",
+      "o": "50 mg/kg/dia em 2–3 doses; alta dose 80–90 mg/kg/dia de 12/12 h."
+    },
+    {
+      "n": "Amoxicilina",
+      "g": "Antibiótico",
+      "pop": "a",
+      "r": "VO",
+      "u": "mg",
+      "c": 0,
+      "f": [
+        500,
+        500
+      ],
+      "dil": "Cápsula 500 mg.",
+      "o": "A cada 8 h."
+    },
+    {
+      "n": "Amoxicilina + clavulanato",
+      "g": "Antibiótico",
+      "pop": "p",
+      "r": "VO",
+      "u": "mg",
+      "c": 80,
+      "k": [
+        22.5,
+        45
+      ],
+      "mx": 1000,
+      "dil": "Suspensão 400/57 mg por 5 mL (80 mg/mL de amoxicilina).",
+      "o": "45–90 mg/kg/dia de amoxicilina, de 12/12 h."
+    },
+    {
+      "n": "Amoxicilina + clavulanato",
+      "g": "Antibiótico",
+      "pop": "a",
+      "r": "VO",
+      "u": "mg",
+      "c": 0,
+      "f": [
+        875,
+        875
+      ],
+      "dil": "Comprimido 875/125 mg.",
+      "o": "A cada 12 h."
+    },
+    {
+      "n": "Azitromicina",
+      "g": "Antibiótico",
+      "pop": "p",
+      "r": "VO",
+      "u": "mg",
+      "c": 40,
+      "k": [
+        5,
+        10
+      ],
+      "mx": 500,
+      "dil": "Suspensão 40 mg/mL (200 mg/5 mL).",
+      "o": "10 mg/kg no 1º dia e 5 mg/kg nos seguintes; 1x/dia."
+    },
+    {
+      "n": "Azitromicina",
+      "g": "Antibiótico",
+      "pop": "a",
+      "r": "VO",
+      "u": "mg",
+      "c": 0,
+      "f": [
+        500,
+        500
+      ],
+      "dil": "Comprimido 500 mg.",
+      "o": "1x/dia."
+    },
+    {
+      "n": "Cefalexina",
+      "g": "Antibiótico",
+      "pop": "p",
+      "r": "VO",
+      "u": "mg",
+      "c": 50,
+      "k": [
+        6.25,
+        12.5
+      ],
+      "mx": 500,
+      "dil": "Suspensão 250 mg/5 mL (50 mg/mL).",
+      "o": "25–50 mg/kg/dia, a cada 6 h."
+    },
+    {
+      "n": "Cefalexina",
+      "g": "Antibiótico",
+      "pop": "a",
+      "r": "VO",
+      "u": "mg",
+      "c": 0,
+      "f": [
+        500,
+        500
+      ],
+      "dil": "Cápsula 500 mg.",
+      "o": "A cada 6 h."
+    },
+    {
+      "n": "Cefazolina",
+      "g": "Antibiótico",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 100,
+      "k": [
+        25,
+        50
+      ],
+      "mx": 2000,
+      "dil": "1 g + 10 mL de AD (100 mg/mL); IV lento em 3–5 min.",
+      "o": "A cada 8 h."
+    },
+    {
+      "n": "Cefazolina",
+      "g": "Antibiótico",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 100,
+      "f": [
+        1000,
+        2000
+      ],
+      "dil": "1 g + 10 mL de AD (100 mg/mL); IV lento em 3–5 min.",
+      "o": "A cada 8 h."
+    },
+    {
+      "n": "Clindamicina",
+      "g": "Antibiótico",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 150,
+      "k": [
+        8,
+        13
+      ],
+      "mx": 600,
+      "dil": "Diluir em SF/SG até no máx. 18 mg/mL; infundir em 30 min ou mais.",
+      "o": "A cada 6–8 h."
+    },
+    {
+      "n": "Clindamicina",
+      "g": "Antibiótico",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 150,
+      "f": [
+        600,
+        900
+      ],
+      "dil": "Diluir em SF/SG; infundir em 30 min ou mais.",
+      "o": "A cada 8 h."
+    },
+    {
+      "n": "Gentamicina",
+      "g": "Antibiótico",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 40,
+      "k": [
+        5,
+        7.5
+      ],
+      "mx": 0,
+      "dil": "Diluir em 50–100 mL de SF; infundir em 30 min.",
+      "o": "1x/dia. Ajustar na insuficiência renal."
+    },
+    {
+      "n": "Gentamicina",
+      "g": "Antibiótico",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 40,
+      "k": [
+        5,
+        5
+      ],
+      "mx": 0,
+      "dil": "Diluir em 100 mL de SF; infundir em 30 min.",
+      "o": "1x/dia. Ajustar na insuficiência renal."
+    },
+    {
+      "n": "Ampicilina",
+      "g": "Antibiótico",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 100,
+      "k": [
+        25,
+        50
+      ],
+      "mx": 2000,
+      "dil": "1 g + 10 mL de AD (100 mg/mL); IV lento em 3–5 min.",
+      "o": "A cada 6 h."
+    },
+    {
+      "n": "Ampicilina",
+      "g": "Antibiótico",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 100,
+      "f": [
+        1000,
+        2000
+      ],
+      "dil": "1 g + 10 mL de AD (100 mg/mL); IV lento em 3–5 min.",
+      "o": "A cada 4–6 h."
+    },
+    {
+      "n": "Vancomicina",
+      "g": "Antibiótico",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 5,
+      "k": [
+        15,
+        15
+      ],
+      "mx": 1000,
+      "dil": "Reconstituir 500 mg em 10 mL e diluir até 5 mg/mL; infundir em 60 min ou mais.",
+      "o": "A cada 6–8 h; acompanhar nível sérico."
+    },
+    {
+      "n": "Vancomicina",
+      "g": "Antibiótico",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 5,
+      "k": [
+        15,
+        20
+      ],
+      "mx": 2000,
+      "dil": "Reconstituir e diluir até 5 mg/mL; infundir em 60 min ou mais.",
+      "o": "A cada 8–12 h; acompanhar nível sérico."
+    },
+    {
+      "n": "Meropenem",
+      "g": "Antibiótico",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 50,
+      "k": [
+        20,
+        40
+      ],
+      "mx": 2000,
+      "dil": "1 g + 20 mL de AD (50 mg/mL); IV em 3–5 min.",
+      "o": "A cada 8 h (meningite: 40 mg/kg)."
+    },
+    {
+      "n": "Meropenem",
+      "g": "Antibiótico",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 50,
+      "f": [
+        1000,
+        2000
+      ],
+      "dil": "1 g + 20 mL de AD (50 mg/mL); IV em 3–5 min.",
+      "o": "A cada 8 h."
+    },
+    {
+      "n": "Paracetamol gotas 200 mg/mL",
+      "g": "Analgesia",
+      "pop": "p",
+      "r": "VO",
+      "u": "mg",
+      "c": 200,
+      "k": [
+        10,
+        15
+      ],
+      "mx": 466.6666666666667,
+      "dil": "Solução oral 200 mg/mL, apresentação de referência com 15 gotas/mL (13,33 mg/gota). Não diluir.",
+      "o": "1 gota/kg/dose VO (até 35 gotas/dose para menores de 12 anos), de 6/6 h se necessário; máximo 5 tomadas/24 h. Abaixo de 2 anos ou 11 kg: avaliação médica obrigatória. Confirmar fator gotas/mL na bula da marca e doses máximas.",
+      "gt": 15,
+      "doseMode": "drops",
+      "dropsPerKg": 1,
+      "maxDrops": 35,
+      "source": "https://www.tylenol.com.br/alivio-seguro/instrucoes-de-dosagem/dosagem-para-bebes-e-criancas"
+    },
+    {
+      "n": "Paracetamol",
+      "g": "Analgesia",
+      "pop": "a",
+      "r": "VO",
+      "u": "mg",
+      "c": 0,
+      "f": [
+        500,
+        1000
+      ],
+      "dil": "Comprimido 500/750 mg.",
+      "o": "A cada 6 h; máx. 4 g/dia."
+    },
+    {
+      "n": "Ibuprofeno gotas 50 mg/mL",
+      "g": "Analgesia",
+      "pop": "p",
+      "r": "VO",
+      "u": "mg",
+      "c": 50,
+      "k": [
+        5,
+        10
+      ],
+      "mx": 200,
+      "dil": "Suspensão oral em gotas 50 mg/mL: apresentação de referência com 10 gotas/mL (5 mg/gota); conferir o fabricante.",
+      "o": "Dose de referência 5–10 mg/kg/dose VO de 6/6–8/8 h, máximo 40 mg/kg/dia e 200 mg/dose para menores de 12 anos. Acima de 6 meses; avaliar desidratação, função renal e contraindicações. Confirmar bula da marca.",
+      "gt": 10,
+      "doseMode": "drops",
+      "maxDrops": 40,
+      "source": "https://www.panvel.com/panvel/ibuprofeno-50mg-ml-30ml-medley-generico/564210/bula"
+    },
+    {
+      "n": "Ibuprofeno gotas 100 mg/mL",
+      "g": "Analgesia",
+      "pop": "p",
+      "r": "VO",
+      "u": "mg",
+      "c": 100,
+      "k": [
+        5,
+        10
+      ],
+      "mx": 200,
+      "gt": 10,
+      "maxDrops": 20,
+      "doseMode": "drops",
+      "dil": "Suspensão oral gotas 100 mg/mL: referência Medley com 10 gotas/mL = 10 mg/gota; outras marcas podem variar (ex.: 9 gotas/mL).",
+      "o": "A partir de 6 meses. 5–10 mg/kg/dose VO de 6/6–8/8 h, máximo 40 mg/kg/dia e 200 mg/dose para menores de 12 anos. Conferir obrigatoriamente gotas/mL da bula do fabricante.",
+      "source": "https://www.araujo.com.br/bula/Ibuprofeno-100mg/ml-Medley-Gen%C3%A9rico-Gotas-com-20ml"
+    },
+    {
+      "n": "Ibuprofeno",
+      "g": "Analgesia",
+      "pop": "a",
+      "r": "VO",
+      "u": "mg",
+      "c": 0,
+      "f": [
+        400,
+        600
+      ],
+      "dil": "Comprimido 400/600 mg.",
+      "o": "A cada 6–8 h."
+    },
+    {
+      "n": "Dipirona gotas 500 mg/mL",
+      "g": "Analgesia",
+      "pop": "p",
+      "r": "VO",
+      "u": "mg",
+      "c": 500,
+      "k": [
+        10,
+        25
+      ],
+      "mx": 1000,
+      "dil": "Solução oral gotas 500 mg/mL: 20 gotas/mL (25 mg/gota) na apresentação Novalgina.",
+      "o": "Faixas de gotas por peso conforme bula da Novalgina. Máximo 4 tomadas/24 h. Não administrar em menores de 3 meses ou abaixo de 5 kg. Conferir bula do produto.",
+      "gt": 20,
+      "doseMode": "drops",
+      "dropBands": [
+        [
+          8,
+          2,
+          5
+        ],
+        [
+          15,
+          3,
+          10
+        ],
+        [
+          23,
+          5,
+          15
+        ],
+        [
+          30,
+          8,
+          20
+        ],
+        [
+          45,
+          10,
+          30
+        ],
+        [
+          53,
+          15,
+          35
+        ]
+      ],
+      "source": "https://www.novalgina.com.br/produtos/adulto/gotas/bula"
+    },
+    {
+      "n": "Dipirona (oral)",
+      "g": "Analgesia",
+      "pop": "a",
+      "r": "VO",
+      "u": "mg",
+      "c": 500,
+      "f": [
+        500,
+        1000
+      ],
+      "dil": "Gotas 500 mg/mL ou comprimido de 500 mg.",
+      "o": "A cada 6 h."
+    },
+    {
+      "n": "Cetoprofeno",
+      "g": "Analgesia",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 50,
+      "f": [
+        100,
+        100
+      ],
+      "dil": "Diluir em 100 mL de SF; infundir em 20–30 min.",
+      "o": "A cada 8–12 h. Risco renal e gástrico."
+    },
+    {
+      "n": "Cetorolaco",
+      "g": "Analgesia",
+      "pop": "p",
+      "r": "IV/IM",
+      "u": "mg",
+      "c": 30,
+      "k": [
+        0.5,
+        0.5
+      ],
+      "mx": 15,
+      "dil": "IV lento (15 s ou mais) ou IM.",
+      "o": "Uso curto. Risco renal e hemorrágico."
+    },
+    {
+      "n": "Cetorolaco",
+      "g": "Analgesia",
+      "pop": "a",
+      "r": "IV/IM",
+      "u": "mg",
+      "c": 30,
+      "f": [
+        10,
+        30
+      ],
+      "dil": "IV lento (15 s ou mais) ou IM.",
+      "o": "Uso curto (até 5 dias). Risco renal e hemorrágico."
+    },
+    {
+      "n": "Diclofenaco",
+      "g": "Analgesia",
+      "pop": "a",
+      "r": "IM",
+      "u": "mg",
+      "c": 25,
+      "f": [
+        75,
+        75
+      ],
+      "dil": "IM profunda, glúteo.",
+      "o": "Uso curto. Risco renal e gástrico."
+    },
+    {
+      "n": "Tramadol",
+      "g": "Analgesia",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 50,
+      "k": [
+        1,
+        2
+      ],
+      "mx": 100,
+      "dil": "Diluir em SF; IV lento.",
+      "o": "A cada 6–8 h. Risco de náusea e convulsão."
+    },
+    {
+      "n": "Tramadol",
+      "g": "Analgesia",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 50,
+      "f": [
+        50,
+        100
+      ],
+      "dil": "Diluir em 100 mL de SF; IV lento.",
+      "o": "A cada 6–8 h. Risco de náusea e convulsão."
+    },
+    {
+      "n": "Hidrocortisona",
+      "g": "Corticoide",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 50,
+      "k": [
+        5,
+        5
+      ],
+      "mx": 100,
+      "dil": "Frasco 100 mg + 2 mL de AD = 50 mg/mL (frasco 500 mg + 4 mL = 125 mg/mL: dividir o volume por 2,5). IV lento.",
+      "o": "Pode repetir a cada 6 h (anafilaxia, asma)."
+    },
+    {
+      "n": "Hidrocortisona",
+      "g": "Corticoide",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 50,
+      "f": [
+        100,
+        200
+      ],
+      "dil": "Frasco 100 mg + 2 mL de AD = 50 mg/mL (frasco 500 mg + 4 mL = 125 mg/mL: dividir o volume por 2,5). IV lento.",
+      "o": "A cada 6–8 h."
+    },
+    {
+      "n": "Prednisolona",
+      "g": "Corticoide",
+      "pop": "p",
+      "r": "VO",
+      "u": "mg",
+      "c": 3,
+      "k": [
+        1,
+        2
+      ],
+      "mx": 60,
+      "dil": "Solução oral 3 mg/mL.",
+      "o": "1x/dia (asma: 3–5 dias)."
+    },
+    {
+      "n": "Prednisona",
+      "g": "Corticoide",
+      "pop": "a",
+      "r": "VO",
+      "u": "mg",
+      "c": 0,
+      "f": [
+        40,
+        60
+      ],
+      "dil": "Comprimido 20 mg.",
+      "o": "1x/dia."
+    },
+    {
+      "n": "Salbutamol (nebulização)",
+      "g": "Respiratório",
+      "pop": "p",
+      "r": "Inalatória",
+      "u": "mg",
+      "c": 5,
+      "k": [
+        0.15,
+        0.15
+      ],
+      "mx": 5,
+      "dil": "Solução 5 mg/mL (1 gota = 0,25 mg); diluir em 3–5 mL de SF.",
+      "o": "Dose mínima de 2,5 mg. Repetir a cada 20 min na crise (até 3 vezes)."
+    },
+    {
+      "n": "Salbutamol (nebulização)",
+      "g": "Respiratório",
+      "pop": "a",
+      "r": "Inalatória",
+      "u": "mg",
+      "c": 5,
+      "f": [
+        2.5,
+        5
+      ],
+      "dil": "Solução 5 mg/mL; diluir em 3–5 mL de SF.",
+      "o": "Repetir a cada 20 min na crise (até 3 vezes)."
+    },
+    {
+      "n": "Ipratrópio gotas para nebulização 0,25 mg/mL",
+      "g": "Respiratório",
+      "pop": "p",
+      "r": "Inalatória",
+      "u": "mg",
+      "c": 0.25,
+      "f": [
+        0.25,
+        0.5
+      ],
+      "dil": "Solução para nebulização 0,25 mg/mL (20 gotas/mL). Adicionar SF 0,9% até volume FINAL de 3–4 mL, conforme bula (para 40 gotas/2 mL, adicionar 1–2 mL de SF). Uso exclusivamente inalatório.",
+      "o": "Dose por IDADE, não por peso: <6 anos 8–20 gotas; 6–12 anos 20 gotas; >12 anos usar dose adulta 40 gotas. Uso em menores de 12 anos sob supervisão médica. Não deduzir idade pelo peso.",
+      "doseMode": "ipratropium-nebulization",
+      "gt": 20,
+      "source": "https://www.ache.com.br/produto/genericos-sob-prescricao/brometo-de-ipratropio/"
+    },
+    {
+      "n": "Ipratrópio gotas para nebulização 0,25 mg/mL",
+      "g": "Respiratório",
+      "pop": "a",
+      "r": "Inalatória",
+      "u": "mg",
+      "c": 0.25,
+      "f": [
+        0.5,
+        0.5
+      ],
+      "dil": "Solução para nebulização 0,25 mg/mL (20 gotas/mL). Adicionar SF 0,9% até volume FINAL de 3–4 mL, conforme bula (para 40 gotas/2 mL, adicionar 1–2 mL de SF). Uso exclusivamente inalatório.",
+      "o": "Adultos e >12 anos: 40 gotas (0,5 mg) por dose. Associar a broncodilatadores quando indicado; em crise, o intervalo de repetição é determinado pelo médico.",
+      "doseMode": "ipratropium-nebulization",
+      "gt": 20,
+      "source": "https://www.ache.com.br/produto/genericos-sob-prescricao/brometo-de-ipratropio/"
+    },
+    {
+      "n": "Furosemida",
+      "g": "Cardiovascular",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 10,
+      "k": [
+        0.5,
+        1
+      ],
+      "mx": 40,
+      "dil": "Sem diluir, IV lento.",
+      "o": "Pode repetir em 6–12 h."
+    },
+    {
+      "n": "Lidocaína 2%",
+      "g": "Cardiovascular",
+      "pop": "p",
+      "r": "IV/IO",
+      "u": "mg",
+      "c": 20,
+      "k": [
+        1,
+        1
+      ],
+      "mx": 100,
+      "dil": "Sem diluir; IV lento.",
+      "o": "FV/TV refratária (alternativa à amiodarona)."
+    },
+    {
+      "n": "Lidocaína 2%",
+      "g": "Cardiovascular",
+      "pop": "a",
+      "r": "IV/IO",
+      "u": "mg",
+      "c": 20,
+      "k": [
+        1,
+        1.5
+      ],
+      "mx": 100,
+      "dil": "Sem diluir; IV lento.",
+      "o": "FV/TV refratária (alternativa à amiodarona)."
+    },
+    {
+      "n": "AAS",
+      "g": "Cardiovascular",
+      "pop": "a",
+      "r": "VO",
+      "u": "mg",
+      "c": 0,
+      "f": [
+        300,
+        300
+      ],
+      "dil": "Comprimido de 100 mg: mastigar 3 comprimidos (300 mg).",
+      "o": "Dor torácica isquêmica suspeita (dose usual 160–325 mg)."
+    },
+    {
+      "n": "Enoxaparina",
+      "g": "Cardiovascular",
+      "pop": "a",
+      "r": "SC",
+      "u": "mg",
+      "c": 100,
+      "k": [
+        1,
+        1
+      ],
+      "mx": 0,
+      "dil": "Seringa 40 mg/0,4 mL (100 mg/mL).",
+      "o": "A cada 12 h; ajustar na insuficiência renal."
+    },
+    {
+      "n": "Heparina",
+      "g": "Cardiovascular",
+      "pop": "a",
+      "r": "IV",
+      "u": "U",
+      "c": 5000,
+      "k": [
+        80,
+        80
+      ],
+      "mx": 10000,
+      "dil": "Frasco 5.000 U/mL; bolus IV.",
+      "o": "Seguir com infusão contínua conforme protocolo."
+    },
+    {
+      "n": "Fenitoína",
+      "g": "Neurologia",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 50,
+      "k": [
+        15,
+        20
+      ],
+      "mx": 1000,
+      "dil": "Diluir só em SF (nunca SG); velocidade máx. 1 mg/kg/min.",
+      "o": "Monitorar ECG e PA. Extravasamento causa lesão."
+    },
+    {
+      "n": "Fenitoína",
+      "g": "Neurologia",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 50,
+      "k": [
+        15,
+        20
+      ],
+      "mx": 2000,
+      "dil": "Diluir só em SF (nunca SG); máx. 50 mg/min.",
+      "o": "Monitorar ECG e PA. Extravasamento causa lesão."
+    },
+    {
+      "n": "Fenobarbital",
+      "g": "Neurologia",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 100,
+      "k": [
+        15,
+        20
+      ],
+      "mx": 1000,
+      "dil": "Diluir em SF; infundir em 20 min ou mais.",
+      "o": "Depressão respiratória."
+    },
+    {
+      "n": "Fenobarbital",
+      "g": "Neurologia",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 100,
+      "k": [
+        15,
+        20
+      ],
+      "mx": 1000,
+      "dil": "Diluir em SF; infundir em 20 min ou mais.",
+      "o": "Depressão respiratória."
+    },
+    {
+      "n": "Levetiracetam",
+      "g": "Neurologia",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 100,
+      "k": [
+        40,
+        60
+      ],
+      "mx": 4500,
+      "dil": "Diluir em 100 mL de SF; infundir em 15 min.",
+      "o": "Estado de mal epiléptico."
+    },
+    {
+      "n": "Levetiracetam",
+      "g": "Neurologia",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 100,
+      "k": [
+        40,
+        60
+      ],
+      "mx": 4500,
+      "dil": "Diluir em 100 mL de SF; infundir em 15 min.",
+      "o": "Estado de mal epiléptico."
+    },
+    {
+      "n": "Biperideno",
+      "g": "Neurologia",
+      "pop": "a",
+      "r": "IM/IV",
+      "u": "mg",
+      "c": 5,
+      "f": [
+        2.5,
+        5
+      ],
+      "dil": "Sem diluir; IV lento.",
+      "o": "Reação extrapiramidal."
+    },
+    {
+      "n": "Flumazenil",
+      "g": "Antídoto",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 0.1,
+      "k": [
+        0.01,
+        0.01
+      ],
+      "mx": 0.2,
+      "dil": "Sem diluir; IV em 15 s.",
+      "o": "Risco de convulsão em uso crônico de benzodiazepínico."
+    },
+    {
+      "n": "Flumazenil",
+      "g": "Antídoto",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 0.1,
+      "f": [
+        0.2,
+        0.2
+      ],
+      "dil": "Sem diluir; IV em 15 s.",
+      "o": "Repetir até 1 mg no total. Risco de convulsão."
+    },
+    {
+      "n": "Carvão ativado",
+      "g": "Antídoto",
+      "pop": "p",
+      "r": "VO/SNG",
+      "u": "g",
+      "c": 0,
+      "k": [
+        1,
+        1
+      ],
+      "mx": 50,
+      "dil": "Diluir em água.",
+      "o": "Até 1–2 h da ingestão e com via aérea protegida."
+    },
+    {
+      "n": "Carvão ativado",
+      "g": "Antídoto",
+      "pop": "a",
+      "r": "VO/SNG",
+      "u": "g",
+      "c": 0,
+      "k": [
+        1,
+        1
+      ],
+      "mx": 50,
+      "dil": "Diluir em água.",
+      "o": "Até 1–2 h da ingestão e com via aérea protegida."
+    },
+    {
+      "n": "Glucagon",
+      "g": "Metabólico",
+      "pop": "p",
+      "r": "IM/IV",
+      "u": "mg",
+      "c": 1,
+      "k": [
+        0.03,
+        0.03
+      ],
+      "mx": 1,
+      "dil": "Pó 1 mg + diluente (1 mg/mL).",
+      "o": "Hipoglicemia sem acesso venoso. Efeito curto."
+    },
+    {
+      "n": "Glucagon",
+      "g": "Metabólico",
+      "pop": "a",
+      "r": "IM/IV",
+      "u": "mg",
+      "c": 1,
+      "f": [
+        1,
+        1
+      ],
+      "dil": "Pó 1 mg + diluente (1 mg/mL).",
+      "o": "Hipoglicemia sem acesso venoso. Efeito curto."
+    },
+    {
+      "n": "Ácido tranexâmico",
+      "g": "Hematologia",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 50,
+      "k": [
+        15,
+        15
+      ],
+      "mx": 1000,
+      "dil": "Diluir em SF; IV lento em 10 min.",
+      "o": "Trauma e hemorragia."
+    },
+    {
+      "n": "Ácido tranexâmico",
+      "g": "Hematologia",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 50,
+      "f": [
+        1000,
+        1000
+      ],
+      "dil": "Diluir em 100 mL de SF; infundir em 10 min.",
+      "o": "Trauma e hemorragia."
+    },
+    {
+      "n": "Propofol",
+      "g": "Sedação/IOT",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 10,
+      "k": [
+        2,
+        3
+      ],
+      "mx": 0,
+      "dil": "Sem diluir.",
+      "o": "Hipotensão e dor à injeção."
+    },
+    {
+      "n": "Propofol",
+      "g": "Sedação/IOT",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 10,
+      "k": [
+        1.5,
+        2.5
+      ],
+      "mx": 0,
+      "dil": "Sem diluir.",
+      "o": "Hipotensão e dor à injeção."
+    },
+    {
+      "n": "Expansão volêmica",
+      "g": "Reposição",
+      "pop": "p",
+      "r": "IV",
+      "u": "mL",
+      "c": 1,
+      "k": [
+        10,
+        20
+      ],
+      "mx": 1000,
+      "dil": "SF 0,9% ou Ringer lactato, em 5–20 min.",
+      "o": "Reavaliar após cada bolus."
+    },
+    {
+      "n": "Expansão volêmica",
+      "g": "Reposição",
+      "pop": "a",
+      "r": "IV",
+      "u": "mL",
+      "c": 1,
+      "k": [
+        10,
+        30
+      ],
+      "mx": 0,
+      "dil": "SF 0,9% ou Ringer lactato.",
+      "o": "Sepse: 30 mL/kg. Reavaliar após cada bolus."
+    },
+    {
+      "n": "Clopidogrel",
+      "g": "Cardiovascular",
+      "pop": "a",
+      "r": "VO",
+      "u": "mg",
+      "c": 0,
+      "f": [
+        300,
+        300
+      ],
+      "dil": "Comprimido 75 mg (300 mg = 4 comprimidos).",
+      "o": "Dose de ataque; depois 75 mg por dia. Acima de 75 anos, ataque de 75 mg."
+    },
+    {
+      "n": "Captopril",
+      "g": "Cardiovascular",
+      "pop": "a",
+      "r": "VO/SL",
+      "u": "mg",
+      "c": 0,
+      "f": [
+        25,
+        25
+      ],
+      "dil": "Comprimido 25 mg; mastigar ou sublingual.",
+      "o": "Pode repetir em 30–60 min. Evitar na gestação."
+    },
+    {
+      "n": "Isossorbida (sublingual)",
+      "g": "Cardiovascular",
+      "pop": "a",
+      "r": "SL",
+      "u": "mg",
+      "c": 0,
+      "f": [
+        5,
+        5
+      ],
+      "dil": "Comprimido sublingual 5 mg.",
+      "o": "Repetir a cada 5 min, até 3 doses, se a PA permitir. Evitar com sildenafila."
+    },
+    {
+      "n": "Metoprolol",
+      "g": "Cardiovascular",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 1,
+      "f": [
+        5,
+        5
+      ],
+      "dil": "Ampola 5 mL (1 mg/mL); sem diluir, IV em 1–2 min.",
+      "o": "Pode repetir a cada 5 min (máx. 15 mg). Evitar em bradicardia, BAV e choque."
+    },
+    {
+      "n": "Metildopa",
+      "g": "Cardiovascular",
+      "pop": "a",
+      "r": "VO",
+      "u": "mg",
+      "c": 0,
+      "f": [
+        250,
+        250
+      ],
+      "dil": "Comprimido 250 mg.",
+      "o": "A cada 8–12 h (hipertensão na gestação)."
+    },
+    {
+      "n": "Deslanosídeo",
+      "g": "Cardiovascular",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 0.2,
+      "f": [
+        0.4,
+        0.4
+      ],
+      "dil": "Ampola 2 mL (0,2 mg/mL); IV lento em 5–10 min.",
+      "o": "Repetir 0,2–0,4 mg a cada 4–6 h conforme resposta (máx. 1,2 mg em 24 h). Cuidado com hipocalemia e BAV."
+    },
+    {
+      "n": "Manitol 20%",
+      "g": "Neurologia",
+      "pop": "p",
+      "r": "IV",
+      "u": "g",
+      "c": 0.2,
+      "k": [
+        0.25,
+        1
+      ],
+      "mx": 0,
+      "dil": "Frasco 250 mL (0,2 g/mL); infundir em 20–30 min, com filtro.",
+      "o": "Hipertensão intracraniana. Contraindicado em anúria e ICC grave."
+    },
+    {
+      "n": "Manitol 20%",
+      "g": "Neurologia",
+      "pop": "a",
+      "r": "IV",
+      "u": "g",
+      "c": 0.2,
+      "k": [
+        0.25,
+        1
+      ],
+      "mx": 0,
+      "dil": "Frasco 250 mL (0,2 g/mL); infundir em 20–30 min, com filtro.",
+      "o": "Hipertensão intracraniana. Contraindicado em anúria e ICC grave."
+    },
+    {
+      "n": "Glicose 25%",
+      "g": "Metabólico",
+      "pop": "p",
+      "r": "IV/IO",
+      "u": "mg",
+      "c": 250,
+      "k": [
+        500,
+        1000
+      ],
+      "mx": 25000,
+      "dil": "Ampola 10 mL (250 mg/mL); em lactentes, diluir 1:1 com AD (12,5%).",
+      "o": "Hipoglicemia. Em neonatos, preferir SG 10%."
+    },
+    {
+      "n": "Bicarbonato de sódio 8,4%",
+      "g": "Metabólico",
+      "pop": "a",
+      "r": "IV",
+      "u": "mEq",
+      "c": 1,
+      "k": [
+        1,
+        1
+      ],
+      "mx": 100,
+      "dil": "Ampola ou frasco de 1 mEq/mL; diluir em SF ou SG.",
+      "o": "PCR, hipercalemia e acidose grave. Não misturar com cálcio."
+    },
+    {
+      "n": "Cloreto de potássio 19,1%",
+      "g": "Metabólico",
+      "pop": "p",
+      "r": "IV",
+      "u": "mEq",
+      "c": 2.56,
+      "k": [
+        0.5,
+        1
+      ],
+      "mx": 40,
+      "dil": "ALTO RISCO. Diluir sempre (máx. 40 mEq/L em veia periférica); infundir em 2–4 h.",
+      "o": "Nunca em bolus. Monitorar ECG e potássio."
+    },
+    {
+      "n": "Cloreto de potássio 19,1%",
+      "g": "Metabólico",
+      "pop": "a",
+      "r": "IV",
+      "u": "mEq",
+      "c": 2.56,
+      "f": [
+        10,
+        20
+      ],
+      "dil": "ALTO RISCO. Diluir em 100–250 mL; máx. 10 mEq/h (até 20 mEq/h em acesso central com monitor).",
+      "o": "Nunca em bolus. Monitorar ECG e potássio."
+    },
+    {
+      "n": "NaCl 3% (preparado do NaCl 20%)",
+      "g": "Metabólico",
+      "pop": "p",
+      "r": "IV",
+      "u": "mL",
+      "c": 1,
+      "k": [
+        2,
+        5
+      ],
+      "mx": 150,
+      "dil": "Preparar: Retirar 11 mL de uma bolsa de 100 mL de SF 0,9% e adicionar 11 mL de NaCl 20%: volume final 100 mL, NaCl ~3%. Preparo somente conforme protocolo institucional/farmácia, com dupla checagem. Infundir em 10–20 min.",
+      "o": "Hiponatremia grave sintomática ou hipertensão intracraniana. Elevar o sódio no máx. 8–10 mEq/L em 24 h, com monitorização. Dose em mL da solução a 3%."
+    },
+    {
+      "n": "NaCl 3% (preparado do NaCl 20%)",
+      "g": "Metabólico",
+      "pop": "a",
+      "r": "IV",
+      "u": "mL",
+      "c": 1,
+      "f": [
+        100,
+        150
+      ],
+      "dil": "Preparar: Retirar 11 mL de uma bolsa de 100 mL de SF 0,9% e adicionar 11 mL de NaCl 20%: volume final 100 mL, NaCl ~3%. Preparo somente conforme protocolo institucional/farmácia, com dupla checagem. Infundir em 10–20 min.",
+      "o": "Hiponatremia grave sintomática ou hipertensão intracraniana. Elevar o sódio no máx. 8–10 mEq/L em 24 h, com monitorização. Dose em mL da solução a 3%."
+    },
+    {
+      "n": "Sulfato de magnésio 10%",
+      "g": "Metabólico",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 100,
+      "k": [
+        25,
+        50
+      ],
+      "mx": 2000,
+      "dil": "Ampola 10 mL (100 mg/mL); diluir em SF e infundir em 15–20 min.",
+      "o": "Asma grave e torsades."
+    },
+    {
+      "n": "Sulfato de magnésio 10%",
+      "g": "Metabólico",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 100,
+      "f": [
+        1000,
+        2000
+      ],
+      "dil": "Ampola 10 mL (1 g); diluir em 100 mL de SF, em 15–20 min.",
+      "o": "Asma grave: 2 g. Torsades: 1–2 g."
+    },
+    {
+      "n": "Fitomenadiona (vitamina K)",
+      "g": "Hematologia",
+      "pop": "p",
+      "r": "IM/IV",
+      "u": "mg",
+      "c": 10,
+      "f": [
+        1,
+        5
+      ],
+      "dil": "Ampola 1 mL (10 mg/mL). IV: diluir e infundir lentamente.",
+      "o": "Recém-nascido (profilaxia): 1 mg IM. Reversão de anticoagulante: ajustar à indicação."
+    },
+    {
+      "n": "Fitomenadiona (vitamina K)",
+      "g": "Hematologia",
+      "pop": "a",
+      "r": "IM/IV",
+      "u": "mg",
+      "c": 10,
+      "f": [
+        5,
+        10
+      ],
+      "dil": "Ampola 1 mL (10 mg/mL). IV: diluir em SF e infundir em 20 min ou mais (risco de anafilaxia).",
+      "o": "Reversão de varfarina."
+    },
+    {
+      "n": "Dimenidrinato + piridoxina",
+      "g": "Antiemético",
+      "pop": "p",
+      "r": "IM",
+      "u": "mg",
+      "c": 50,
+      "k": [
+        1,
+        1.25
+      ],
+      "mx": 50,
+      "dil": "Ampola 1 mL (50 mg de dimenidrinato). IM profunda.",
+      "o": "Acima de 2 anos. Sedação."
+    },
+    {
+      "n": "Dimenidrinato + piridoxina",
+      "g": "Antiemético",
+      "pop": "a",
+      "r": "IM/IV",
+      "u": "mg",
+      "c": 50,
+      "f": [
+        50,
+        50
+      ],
+      "dil": "Ampola 1 mL (50 mg). IV: diluir em 10 mL de SF, lento.",
+      "o": "A cada 8 h. Sedação."
+    },
+    {
+      "n": "Terbutalina",
+      "g": "Respiratório",
+      "pop": "p",
+      "r": "SC",
+      "u": "mg",
+      "c": 0.5,
+      "k": [
+        0.005,
+        0.01
+      ],
+      "mx": 0.3,
+      "dil": "Ampola 1 mL (0,5 mg/mL); sem diluir.",
+      "o": "Asma grave; pode repetir a cada 20 min (até 3 doses). Taquicardia e hipocalemia."
+    },
+    {
+      "n": "Terbutalina",
+      "g": "Respiratório",
+      "pop": "a",
+      "r": "SC",
+      "u": "mg",
+      "c": 0.5,
+      "f": [
+        0.25,
+        0.25
+      ],
+      "dil": "Ampola 1 mL (0,5 mg/mL); sem diluir.",
+      "o": "Asma grave; pode repetir a cada 20 min (até 3 doses)."
+    },
+    {
+      "n": "Atracúrio",
+      "g": "Bloqueador",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 10,
+      "k": [
+        0.4,
+        0.5
+      ],
+      "mx": 0,
+      "dil": "Ampola 5 mL (10 mg/mL); IV rápido. Conservar refrigerado.",
+      "o": "Eliminação por Hofmann; pode liberar histamina."
+    },
+    {
+      "n": "Atracúrio",
+      "g": "Bloqueador",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 10,
+      "k": [
+        0.4,
+        0.5
+      ],
+      "mx": 0,
+      "dil": "Ampola 5 mL (10 mg/mL); IV rápido. Conservar refrigerado.",
+      "o": "Eliminação por Hofmann; pode liberar histamina."
+    },
+    {
+      "n": "Pancurônio",
+      "g": "Bloqueador",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 2,
+      "k": [
+        0.08,
+        0.1
+      ],
+      "mx": 0,
+      "dil": "Ampola 2 mL (2 mg/mL); sem diluir.",
+      "o": "Longa duração (1–2 h). Taquicardia."
+    },
+    {
+      "n": "Pancurônio",
+      "g": "Bloqueador",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 2,
+      "k": [
+        0.08,
+        0.1
+      ],
+      "mx": 0,
+      "dil": "Ampola 2 mL (2 mg/mL); sem diluir.",
+      "o": "Longa duração (1–2 h). Taquicardia."
+    },
+    {
+      "n": "Dextrocetamina (S-cetamina)",
+      "g": "Sedação/IOT",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 50,
+      "k": [
+        0.5,
+        1
+      ],
+      "mx": 0,
+      "dil": "Frasco 10 mL (50 mg/mL); pode diluir 1:1 em SF.",
+      "o": "Isômero S da cetamina, de potência cerca do dobro: usar metade da dose da cetamina."
+    },
+    {
+      "n": "Dextrocetamina (S-cetamina)",
+      "g": "Sedação/IOT",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 50,
+      "k": [
+        0.5,
+        1
+      ],
+      "mx": 0,
+      "dil": "Frasco 10 mL (50 mg/mL); pode diluir 1:1 em SF.",
+      "o": "Isômero S da cetamina, de potência cerca do dobro: usar metade da dose da cetamina."
+    },
+    {
+      "n": "Piperacilina + tazobactam",
+      "g": "Antibiótico",
+      "pop": "p",
+      "r": "IV",
+      "u": "mg",
+      "c": 0,
+      "k": [
+        80,
+        100
+      ],
+      "mx": 4000,
+      "dil": "Frasco 4 g + 0,5 g: reconstituir em 20 mL de AD e diluir em 50–100 mL de SF; infundir em 30 min.",
+      "o": "A cada 6–8 h. Dose em mg de piperacilina."
+    },
+    {
+      "n": "Piperacilina + tazobactam",
+      "g": "Antibiótico",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 0,
+      "f": [
+        4000,
+        4000
+      ],
+      "dil": "Frasco 4 g + 0,5 g: reconstituir em 20 mL de AD e diluir em 50–100 mL de SF; infundir em 30 min.",
+      "o": "A cada 6–8 h. Ajustar na insuficiência renal. Dose em mg de piperacilina."
+    },
+    {
+      "n": "Aciclovir 200 mg comprimido",
+      "g": "Antiviral",
+      "pop": "a",
+      "r": "VO",
+      "u": "mg",
+      "c": 0,
+      "f": [
+        400,
+        400
+      ],
+      "dil": "Apresentação: Aciclovir 200 mg comprimido.",
+      "o": "A cada 8 h, por 7 dias."
+    },
+    {
+      "n": "Amoxicilina + clavulanato 500/125 mg comprimido",
+      "g": "Antibiótico",
+      "pop": "a",
+      "r": "VO",
+      "u": "mg",
+      "c": 0,
+      "f": [
+        500,
+        500
+      ],
+      "dil": "Apresentação: Amoxicilina + clavulanato 500/125 mg comprimido.",
+      "o": "A cada 8 h, por 7 dias."
+    },
+    {
+      "n": "Amoxicilina + clavulanato susp. 250/62,5 mg/5 mL",
+      "g": "Antibiótico",
+      "pop": "p",
+      "r": "VO",
+      "u": "mg",
+      "c": 50,
+      "k": [
+        13.3,
+        13.3
+      ],
+      "mx": 500,
+      "dil": "Apresentação: Amoxicilina + clavulanato susp. 250/62,5 mg/5 mL.",
+      "o": "A cada 8 h, por 7 dias."
+    },
+    {
+      "n": "Ciprofloxacino 500 mg comprimido",
+      "g": "Antibiótico",
+      "pop": "a",
+      "r": "VO",
+      "u": "mg",
+      "c": 0,
+      "f": [
+        500,
+        500
+      ],
+      "dil": "Apresentação: Ciprofloxacino 500 mg comprimido.",
+      "o": "A cada 12 h, por 7 dias."
+    },
+    {
+      "n": "Clindamicina 300 mg cápsula",
+      "g": "Antibiótico",
+      "pop": "a",
+      "r": "VO",
+      "u": "mg",
+      "c": 0,
+      "f": [
+        300,
+        300
+      ],
+      "dil": "Apresentação: Clindamicina 300 mg cápsula.",
+      "o": "A cada 6 h, por 7 dias."
+    },
+    {
+      "n": "Nitrofurantoína 100 mg cápsula",
+      "g": "Antibiótico",
+      "pop": "a",
+      "r": "VO",
+      "u": "mg",
+      "c": 0,
+      "f": [
+        100,
+        100
+      ],
+      "dil": "Apresentação: Nitrofurantoína 100 mg cápsula.",
+      "o": "A cada 6 h, por 5 dias."
+    },
+    {
+      "n": "Sulfametoxazol + trimetoprima 400/80 mg comprimido",
+      "g": "Antibiótico",
+      "pop": "a",
+      "r": "VO",
+      "u": "mg",
+      "c": 0,
+      "f": [
+        800,
+        800
+      ],
+      "dil": "Apresentação: Sulfametoxazol + trimetoprima 400/80 mg comprimido.",
+      "o": "A cada 12 h, por 7 dias."
+    },
+    {
+      "n": "Sulfametoxazol + trimetoprima susp. 200/40 mg/5 mL",
+      "g": "Antibiótico",
+      "pop": "p",
+      "r": "VO",
+      "u": "mg",
+      "c": 40,
+      "k": [
+        20,
+        20
+      ],
+      "mx": 800,
+      "dil": "Apresentação: Sulfametoxazol + trimetoprima susp. 200/40 mg/5 mL.",
+      "o": "A cada 12 h, por 7 dias."
+    },
+    {
+      "n": "Paracetamol 500 mg comprimido",
+      "g": "Analgesia",
+      "pop": "a",
+      "r": "VO",
+      "u": "mg",
+      "c": 0,
+      "f": [
+        1000,
+        1000
+      ],
+      "dil": "Apresentação: Paracetamol 500 mg comprimido.",
+      "o": "A cada 6 h (se necessário), por 3 dias."
+    },
+    {
+      "n": "Ibuprofeno 300 mg comprimido",
+      "g": "Analgesia",
+      "pop": "a",
+      "r": "VO",
+      "u": "mg",
+      "c": 0,
+      "f": [
+        300,
+        300
+      ],
+      "dil": "Apresentação: Ibuprofeno 300 mg comprimido.",
+      "o": "A cada 8 h (se necessário), por 3 dias."
+    },
+    {
+      "n": "Prometazina 25 mg comprimido",
+      "g": "Antialérgico",
+      "pop": "a",
+      "r": "VO",
+      "u": "mg",
+      "c": 0,
+      "f": [
+        25,
+        25
+      ],
+      "dil": "Apresentação: Prometazina 25 mg comprimido.",
+      "o": "A cada 12 h (se necessário), por 3 dias."
+    },
+    {
+      "n": "Benzilpenicilina benzatina",
+      "g": "Antibiótico",
+      "pop": "p",
+      "r": "IM profunda",
+      "u": "UI",
+      "c": 0,
+      "f": [
+        600000,
+        1200000
+      ],
+      "dil": "Frasco de 1.200.000 UI: reconstituir com o diluente do fabricante. IM profunda; nunca IV.",
+      "o": "Menos de 27 kg: 600.000 UI; 27 kg ou mais: 1.200.000 UI (faringoamigdalite, dose única). Sífilis: seguir o protocolo."
+    },
+    {
+      "n": "Benzilpenicilina benzatina",
+      "g": "Antibiótico",
+      "pop": "a",
+      "r": "IM profunda",
+      "u": "UI",
+      "c": 0,
+      "f": [
+        1200000,
+        2400000
+      ],
+      "dil": "Frasco de 1.200.000 UI: reconstituir com o diluente do fabricante. IM profunda; nunca IV.",
+      "o": "Faringoamigdalite: 1.200.000 UI em dose única. Sífilis precoce: 2.400.000 UI (1.200.000 UI em cada glúteo)."
+    },
+    {
+      "n": "Protamina",
+      "g": "Antídoto",
+      "pop": "a",
+      "r": "IV lenta",
+      "u": "mg",
+      "c": 10,
+      "indication": "Reversão de HNF; reversão parcial de enoxaparina.",
+      "source": "https://www.dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=e1964129-33f4-4e4e-86e3-8e6a4e65bd83&type=display",
+      "dil": "Referência: 50 mg/5 mL (10 mg/mL). Pode ser usada sem diluir ou com SF/SG 5% conforme bula. Administrar muito lentamente em 10 min; não exceder 50 mg nesse período.",
+      "o": "Suspender heparina e revisar dose/horário. Monitorar sangramento, PA, ECG e coagulação; risco de hipotensão, anafilaxia e excesso com efeito anticoagulante. TTPA não quantifica adequadamente o efeito residual da enoxaparina; considerar anti-Xa conforme disponibilidade.",
+      "aliases": "heparina HNF enoxaparina reversor sulfato de protamina",
+      "manualDose": true,
+      "doseText": "HNF: 1 mg neutraliza aproximadamente 100 UI ainda ativas. Reduzir conforme tempo decorrido; 30 min após bolus IV, metade pode bastar. Não usar a dose total histórica como se ainda estivesse circulante. Enoxaparina: última dose há <8 h, 1 mg de protamina por 1 mg de enoxaparina; 8–12 h, 0,5 mg/mg; ≥12 h pode dispensar, individualizar por sangramento/função renal. Neutralização anti-Xa incompleta (~60%); redose exige reavaliação.",
+      "f": [
+        0,
+        0
+      ],
+      "references": [
+        [
+          "Bula Lovenox — reversão parcial",
+          "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=de6fb917-a94a-41ea-9d7d-937d4080ffcd"
+        ]
+      ]
+    },
+    {
+      "n": "Fitomenadiona (vitamina K1) — sangramento maior por varfarina",
+      "g": "Antídoto",
+      "pop": "a",
+      "r": "IV lenta",
+      "u": "mg",
+      "c": 10,
+      "indication": "Reversão de antagonista da vitamina K em sangramento maior.",
+      "source": "https://www.acc.org/~/media/ed3636c050eb48ee85c934e5c920d27b.pdf",
+      "dil": "Conferir apresentação própria para IV: referência 10 mg/mL. Diluir a dose em 25–50 mL de SF e infundir em 15–30 min, conforme produto/protocolo; não exceder 1 mg/min. Não aplicar apresentação exclusiva para IM por via IV.",
+      "o": "Associar CCP de 4 fatores quando indicado; vitamina K isolada não reverte imediatamente a hemorragia. Monitorar INR e clínica. Pode causar reação grave mesmo lentamente; INR elevado sem sangramento tem outro esquema.",
+      "aliases": "vitamina k warfarin varfarina reversao",
+      "f": [
+        5,
+        10
+      ]
+    },
+    {
+      "n": "Complexo protrombínico de 4 fatores (CCP-4F)",
+      "g": "Antídoto",
+      "pop": "a",
+      "r": "IV",
+      "u": "UI",
+      "c": 0,
+      "indication": "Reversão urgente de varfarina em hemorragia maior ou procedimento urgente.",
+      "source": "https://www.fda.gov/media/85512/download",
+      "dil": "Esquema da bula KCENTRA: reconstituir somente com diluente/volume do kit. Potência de fator IX e volume variam: calcular pelos valores do frasco, sem assumir UI/mL fixas. Taxa de bula 0,12 mL/kg/min, máximo 8,4 mL/min; não transferir esta taxa para outra marca.",
+      "o": "Associar vitamina K. Reavaliar INR e hemostasia; não repetir automaticamente. Risco de trombose; contraindicações da apresentação incluem HIT (contém heparina), CIVD e reação grave a componentes. Não equivale ao complexo ativado.",
+      "aliases": "PCC 4F kcentra beriplex varfarina",
+      "manualDose": true,
+      "doseText": "Dose em UI de fator IX/kg conforme INR prévio: 2–<4 → 25 UI/kg (máx. 2.500 UI); 4–6 → 35 UI/kg (máx. 3.500 UI); >6 → 50 UI/kg (máx. 5.000 UI). Bula usa peso até 100 kg. Informar INR e selecionar produto antes de calcular; não há dose única por peso.",
+      "f": [
+        0,
+        0
+      ]
+    },
+    {
+      "n": "Idarucizumabe",
+      "g": "Antídoto",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 50,
+      "indication": "Reversão específica de dabigatrana em sangramento incontrolável/ameaçador à vida ou procedimento urgente.",
+      "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c7400f8a-dcf4-a6df-6d07-983081b1bf34",
+      "dil": "Dose de 5 g = dois frascos de 2,5 g/50 mL (100 mL no total), administrados consecutivamente por infusão ou injeção IV conforme bula. Pronto para uso; não misturar com outros fármacos.",
+      "o": "Não reverte rivaroxabana/apixabana, varfarina ou heparina. Monitorar hemostasia, função renal e testes adequados à dabigatrana; pode haver reaparecimento do efeito. Redose não automática; planejar reinício da anticoagulação conforme risco.",
+      "aliases": "praxbind idarucizumab dabigatrana pradaxa",
+      "f": [
+        5000,
+        5000
+      ]
+    },
+    {
+      "n": "N-acetilcisteína IV — intoxicação por paracetamol",
+      "g": "Antídoto",
+      "pop": "a",
+      "r": "IV em etapas",
+      "u": "mg",
+      "c": 200,
+      "indication": "Prevenção/tratamento de hepatotoxicidade por paracetamol.",
+      "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39",
+      "dil": "Referência 200 mg/mL; obrigatoriamente diluir. Esquema de 3 bolsas: 41–99 kg, adicionar cada dose respectivamente a 200, 500 e 1.000 mL de SG 5% (volumes de DILUENTE, não finais). Para 21–40 kg: 100, 250 e 500 mL. Restrição hídrica requer preparo validado. Não usar solução inalatória por via IV.",
+      "o": "Avaliar tempo de ingestão, paracetamolemia, AST/ALT, INR, creatinina e glicemia. Nomograma aplica-se à ingestão aguda única com horário conhecido, não à repetida. Reavaliar antes de suspender; hepatotoxicidade/paracetamol detectável pode exigir prolongar. Vigiar hipersensibilidade e sobrecarga hídrica.",
+      "aliases": "NAC acetilcisteina acetaminofeno paracetamol acetadote",
+      "manualDose": true,
+      "doseText": "3 etapas sequenciais em 21 h: 150 mg/kg em 1 h → 50 mg/kg em 4 h → 100 mg/kg em 16 h. ≥100 kg, a bula fixa as etapas em 15 g, 5 g e 10 g. Não administrar as três doses juntas nem em bolus.",
+      "f": [
+        0,
+        0
+      ]
+    },
+    {
+      "n": "Fomepizol — dose de ataque",
+      "g": "Antídoto",
+      "pop": "a",
+      "r": "IV em 30 min",
+      "u": "mg",
+      "c": 1000,
+      "indication": "Intoxicação por metanol ou etilenoglicol.",
+      "source": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=7e133194-dacb-446a-a657-2d2430a02373&type=display",
+      "dil": "Concentrado 1 g/mL: diluir a dose em pelo menos 100 mL de SF ou SG 5% e infundir em 30 min. Nunca injetar concentrado; não usar material de policarbonato em contato com o concentrado.",
+      "o": "Ataque apenas. Sem hemodiálise: depois 10 mg/kg a cada 12 h por 4 doses; em seguida 15 mg/kg a cada 12 h até critérios de suspensão. Hemodiálise exige outro intervalo. Monitorar acidose, eletrólitos, rim e níveis do tóxico; avaliar diálise com toxicologia/nefrologia.",
+      "aliases": "fomepizole metanol etilenoglicol alcool toxico",
+      "k": [
+        15,
+        15
+      ]
+    },
+    {
+      "n": "Hidroxocobalamina — cianeto",
+      "g": "Antídoto",
+      "pop": "a",
+      "r": "IV em 15 min",
+      "u": "mg",
+      "c": 25,
+      "indication": "Intoxicação por cianeto, inclusive suspeita clínica relevante em fumaça de incêndio.",
+      "source": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=d56fcc8d-bd64-46ab-b0c0-2124bd745a6b&type=display",
+      "dil": "Kit de 5 g: reconstituir com 200 mL de SF conforme fabricante (25 mg/mL); infundir em 15 min. Pode repetir 5 g conforme gravidade/resposta, em 15 min–2 h; total máximo 10 g. Usar linha apropriada e verificar incompatibilidades.",
+      "o": "Não confundir com ampola de vitamina B12 de baixa dose. Pode elevar PA, avermelhar pele/urina e interferir em exames e detectores de fuga de sangue de hemodiálise. Vigiar função renal/lesão por oxalato; coletar exames antes se isso não atrasar tratamento.",
+      "aliases": "cyanokit cianeto fumaca vitamina b12",
+      "f": [
+        5000,
+        5000
+      ]
+    },
+    {
+      "n": "Azul de metileno — metemoglobinemia",
+      "g": "Antídoto",
+      "pop": "a",
+      "r": "IV em 5–30 min",
+      "u": "mg",
+      "c": 5,
+      "indication": "Metemoglobinemia adquirida clinicamente relevante.",
+      "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4f6848e5-35ed-4046-b13c-3032b5ba3232",
+      "dil": "Referência PROVAYBLUE 5 mg/mL (0,5%); não confundir com 1% (10 mg/mL). Pode diluir a dose em 50 mL de SG 5%; evitar SF nesta apresentação. Infundir em 5–30 min.",
+      "o": "Contraindicado em deficiência de G6PD e hipersensibilidade. Risco de síndrome serotoninérgica com serotoninérgicos/opioides. Reavaliar metHb/clínica após 1 h; uma segunda dose de 1 mg/kg pode ser indicada, mas eGFR 15–59 exige dose única pela bula. Persistência após duas doses: alternativa especializada.",
+      "aliases": "methylene blue metHb metahemoglobinemia",
+      "k": [
+        1,
+        1
+      ]
+    },
+    {
+      "n": "Octreotida — hipoglicemia por sulfonilureia",
+      "g": "Antídoto",
+      "pop": "a",
+      "r": "SC",
+      "u": "mcg",
+      "c": 100,
+      "indication": "Hipoglicemia recorrente por sulfonilureias, junto à correção inicial com glicose.",
+      "source": "https://atlanticcanadapoisoncentre.ca/octreotide-adult.html",
+      "dil": "Referência 100 mcg/mL: SC sem diluir. Esquema adulto 50–100 mcg SC a cada 6–12 h, ajustado com toxicologia. Outras apresentações alteram o volume.",
+      "o": "Não substitui glicose no resgate inicial. Monitorar glicemia seriada e bradicardia. A referência orienta observação por ao menos 24 h após a última dose e 8 h após interromper glicose IV; individualizar pelo agente e quadro. Não é antídoto de rotina para toda hipoglicemia.",
+      "aliases": "octreotide glibenclamida gliclazida sulfonilureia",
+      "f": [
+        50,
+        100
+      ]
+    },
+    {
+      "n": "Fab antidigoxina (DigiFab)",
+      "g": "Antídoto",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 10,
+      "indication": "Toxicidade digitálica com ameaça à vida.",
+      "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?audience=consumer&setid=c05ee6a5-c98b-45f4-83fd-40781639d653",
+      "dil": "Frasco 40 mg: reconstituir com 4 mL de água para injetáveis (~10 mg/mL). Diluir conforme bula em SF e infundir habitualmente em pelo menos 30 min; parada iminente pode exigir estratégia urgente especializada.",
+      "o": "Monitorar ECG, potássio e função renal; pode ocorrer queda rápida do K e perda do efeito terapêutico da digoxina. Digoxinemia total fica pouco interpretável após Fab. Vigiar recrudescência, sobretudo na insuficiência renal.",
+      "aliases": "digoxina digitalicos digifab digibind anticorpo",
+      "manualDose": true,
+      "doseText": "Número de frascos depende da carga corporal de digoxina e do contexto agudo/crônico. Cada frasco de 40 mg liga aproximadamente 0,5 mg de digoxina. Usar dose absorvida ou concentração pré-Fab em momento adequado, com toxicologia; não converter diretamente a dose ingerida sem considerar biodisponibilidade.",
+      "f": [
+        0,
+        0
+      ]
+    },
+    {
+      "n": "Piridoxina (vitamina B6) — intoxicação por isoniazida",
+      "g": "Antídoto",
+      "pop": "a",
+      "r": "IV",
+      "u": "mg",
+      "c": 100,
+      "indication": "Convulsões por intoxicação por isoniazida — esquema adulto de referência.",
+      "source": "https://atlanticcanadapoisoncentre.ca/pyridoxine-adult.html",
+      "dil": "Referência 100 mg/mL: 5 g = 50 mL. Para 5 g/100 mL, retirar 50 mL de bolsa de SF de 100 mL e adicionar 50 mL de piridoxina. Proteger da luz. Administrar em 10 min.",
+      "o": "Se convulsões cessarem antes de 10 min, a referência orienta infundir o restante em 4 h. Pode repetir uma vez se persistência/recorrência, sob toxicologia. Garantir suporte de via aérea e tratamento anticonvulsivante. Dose/preparo não devem ser transferidos a outras indicações.",
+      "aliases": "isoniazida INH vitamina b6 pyridoxine",
+      "f": [
+        5000,
+        5000
+      ]
+    },
+    {
+      "n": "Fentanil (IOT adulto)",
+      "g": "Analgesia",
+      "pop": "a",
+      "iotGroup": "a",
+      "r": "IV lenta",
+      "u": "mcg",
+      "c": 50,
+      "k": [
+        2,
+        3
+      ],
+      "indication": "Adjuvante de pré-indução para atenuar a resposta à laringoscopia, quando indicado.",
+      "dil": "Ampola 50 mcg/mL: volume mostrado é da apresentação não diluída. Administrar lentamente, em 2–3 min, conforme protocolo; não dar em push rápido.",
+      "o": "Faixa de referência SES-DF: 2–3 mcg/kg em bolus. Não é mínimo obrigatório nem dose de manutenção. Reduzir/considerar omitir em choque, hipotensão, fragilidade ou associação com hipnótico; risco de apneia, bradicardia e rigidez torácica. Definir peso de dose em obesidade, sem multiplicar automaticamente pelo peso total. Não substitui hipnose nem bloqueio neuromuscular.",
+      "source": "https://www.saude.df.gov.br/documents/37101/85026/Tabela_medicamentos_IOT_V.4.pdf",
+      "references": [
+        [
+          "Hipotensão pós-IOT — estudo multicêntrico",
+          "https://pubmed.ncbi.nlm.nih.gov/29653790/"
+        ]
+      ]
+    },
+    {
+      "n": "Fentanil (IOT pediátrica)",
+      "g": "Analgesia",
+      "pop": "p",
+      "iotGroup": "p",
+      "r": "IV lenta",
+      "u": "mcg",
+      "c": 50,
+      "k": [
+        2,
+        4
+      ],
+      "indication": "Adjuvante da intubação em sequência rápida pediátrica, quando indicado.",
+      "dil": "Referência da ampola: 50 mcg/mL; o volume mostrado corresponde à ampola, sem diluir. Administrar lentamente em 2–3 min conforme protocolo. Volumes pequenos exigem diluição e dupla conferência institucional.",
+      "o": "Faixa institucional HU-UFGD: 2–4 mcg/kg IV lento. Não aplicar o teto de 100 mcg do cadastro de analgesia geral a este esquema. Titular/reduzir conforme hemodinâmica, hipnótico associado e peso de dose em obesidade. Vigiar apneia, rigidez torácica, hipotensão e bradicardia. Não extrapolar ao recém-nascido.",
+      "source": "https://www.gov.br/hubrasil/pt-br/hospitais-universitarios/regiao-centro-oeste/hu-ufgd/acesso-a-informacao/pops-protocolos-e-processos/gad/prt-utip-004-intubacao-em-sequencia-rapida-em-pediatria-v1-1.pdf"
+    },
+    {
+      "n": "Fentanil (IOT neonatal — pré-medicação)",
+      "g": "Analgesia",
+      "pop": "p",
+      "iotGroup": "n",
+      "r": "IV em 3–5 min",
+      "u": "mcg",
+      "c": 10,
+      "k": [
+        4,
+        4
+      ],
+      "indication": "Pré-medicação neonatal para intubação planejada com ventilação subsequente; esquema NeoMedQ.",
+      "dil": "Concentração de TRABALHO 10 mcg/mL: aspirar 2 mL da ampola 50 mcg/mL (100 mcg) e adicionar 8 mL de SF, volume FINAL 10 mL. Aspirar a dose dessa solução; não da ampola 50 mcg/mL. Administrar em 3–5 min. A fonte orienta aguardar pelo menos 3 min para o início do efeito, quando clinicamente possível.",
+      "o": "Uso neonatal especializado; não atrasar ventilação/intubação de emergência ou reanimação para pré-medicação. Risco de apneia, rigidez torácica e bradicardia: suporte ventilatório e equipe habilitada. Não extrapolar este esquema a INSURE/in-out para surfactante, nem à infusão contínua.",
+      "source": "https://www.health.qld.gov.au/__data/assets/pdf_file/0019/1025074/nmq-fentanyl.pdf"
+    },
+    {
+      "n": "Dipirona solução oral (xarope) 50 mg/mL",
+      "g": "Analgesia",
+      "pop": "p",
+      "r": "VO",
+      "u": "mg",
+      "c": 50,
+      "k": [
+        10,
+        20
+      ],
+      "mx": 1000,
+      "dil": "Solução oral (xarope) 50 mg/mL: medir em mL com seringa/copo dosador. Não converter para gotas.",
+      "o": "Usar tabela por faixa de peso da bula da Novalgina: no máximo 4 tomadas/24 h. Não usar abaixo de 3 meses ou 5 kg; conferir contraindicações.",
+      "volumeBands": [
+        [
+          8,
+          1.25,
+          2.5
+        ],
+        [
+          15,
+          2.5,
+          5
+        ],
+        [
+          23,
+          3.75,
+          7.5
+        ],
+        [
+          30,
+          5,
+          10
+        ],
+        [
+          45,
+          7.5,
+          15
+        ],
+        [
+          53,
+          8.75,
+          17.5
+        ]
+      ],
+      "source": "https://www.novalgina.com.br/produtos/infantil/solucao-oral/bula"
+    },
+    {
+      "n": "Mupirocina 2% pomada (20 mg/g)",
+      "g": "Dermatologia e feridas",
+      "r": "TÓPICA",
+      "indication": "Infecção bacteriana cutânea localizada, como impetigo.",
+      "doseText": "Aplicar pequena quantidade na área afetada até 3 vezes/dia; duração conforme resposta, no máximo 10 dias.",
+      "o": "Evitar olhos, mucosa nasal e uso em cateteres. Não usar como rotina em ferida limpa. Evitar aplicação extensa em pele lesada na insuficiência renal moderada/grave (veículo macrogol). Suspender se sensibilização.",
+      "source": "https://br.gsk.com/media/uu5fxs5d/bactroban.pdf",
+      "aliases": "Bactroban impetigo foliculite",
+      "pop": "a",
+      "c": 0,
+      "u": "mg",
+      "f": [
+        0,
+        0
+      ],
+      "manualDose": true,
+      "ambulatory": true,
+      "reviewedAt": "15/11/2026",
+      "dil": "Usar a apresentação indicada. Posologia textual; não calcular por peso."
+    },
+    {
+      "n": "Colagenase 0,6 U/g pomada",
+      "g": "Dermatologia e feridas",
+      "r": "TÓPICA",
+      "indication": "Desbridamento enzimático quando há tecido desvitalizado e indicação após avaliação da perfusão.",
+      "doseText": "Aplicar camada de cerca de 2 mm sobre a área indicada, 1 vez/dia; manter umidade adequada e trocar curativo diariamente. Interromper quando o desbridamento estiver completo; se não melhorar em 14 dias, reavaliar.",
+      "o": "Proteger pele sadia; evitar olhos e mucosas. Não amolecer escara seca estável de calcâneo ou membro isquêmico. Antissépticos e metais pesados podem inativar a enzima; conferir compatibilidade. Não confundir com associação a cloranfenicol.",
+      "source": "https://www.cristalia.com.br/produto/113/bula-profissional",
+      "aliases": "Kollagenase necrose desbridamento",
+      "pop": "a",
+      "c": 0,
+      "u": "mg",
+      "f": [
+        0,
+        0
+      ],
+      "manualDose": true,
+      "ambulatory": true,
+      "reviewedAt": "15/11/2026",
+      "dil": "Usar a apresentação indicada. Posologia textual; não calcular por peso."
+    },
+    {
+      "n": "Clotrimazol 1% creme (10 mg/g)",
+      "g": "Dermatologia e feridas",
+      "r": "TÓPICA",
+      "indication": "Dermatomicoses superficiais, incluindo tíneas e candidíase cutânea.",
+      "doseText": "Aplicar camada fina 2–3 vezes/dia. Para dermatomicoses, geralmente 3–4 semanas; ajustar à localização e diagnóstico.",
+      "o": "Uso dermatológico; evitar olhos e ingestão. Reavaliar diagnóstico se não houver melhora em 4 semanas. Não tratar feridas bacterianas com antifúngico. Não equivale ao creme vaginal.",
+      "source": "https://www.bulario.bayer.com.br/cuidados-com-a-saude/canesten-creme",
+      "aliases": "Canesten micose tinea candidiase",
+      "pop": "a",
+      "c": 0,
+      "u": "mg",
+      "f": [
+        0,
+        0
+      ],
+      "manualDose": true,
+      "ambulatory": true,
+      "reviewedAt": "15/11/2026",
+      "dil": "Usar a apresentação indicada. Posologia textual; não calcular por peso."
+    },
+    {
+      "n": "Cetoconazol 2% creme (20 mg/g)",
+      "g": "Dermatologia e feridas",
+      "r": "TÓPICA",
+      "indication": "Micoses cutâneas superficiais.",
+      "doseText": "Aplicar nas áreas acometidas 1 vez/dia e manter por alguns dias após resolução. Reavaliar se não houver resposta em 4 semanas.",
+      "o": "Evitar contato ocular. Suspender se irritação importante. Confirmar diagnóstico e extensão. Esta ficha é exclusivamente do creme, não do cetoconazol oral nem de associações com corticoide.",
+      "source": "https://www.geolab.com.br/wp-content/uploads/2021/05/bula_1769007091628.pdf",
+      "aliases": "micose antifungico dermatofitose",
+      "pop": "a",
+      "c": 0,
+      "u": "mg",
+      "f": [
+        0,
+        0
+      ],
+      "manualDose": true,
+      "ambulatory": true,
+      "reviewedAt": "15/11/2026",
+      "dil": "Usar a apresentação indicada. Posologia textual; não calcular por peso."
+    },
+    {
+      "n": "Losartana potássica 50 mg comprimido",
+      "g": "Ambulatório cardiovascular",
+      "r": "VO",
+      "indication": "Hipertensão arterial em adultos.",
+      "doseText": "Dose usual: 50 mg VO 1 vez/dia; conforme resposta, até 100 mg/dia. Tratamento contínuo com reavaliação. Considerar início menor em depleção volêmica ou doença hepática.",
+      "o": "Contraindicada na gestação. Monitorar creatinina e potássio; cautela com desidratação, estenose de artéria renal, AINE e suplementos de potássio. Não associar rotineiramente a IECA. Não é esquema de emergência hipertensiva.",
+      "source": "https://www.ems.com.br/arquivos/produtos/bulas/bula_losartana_potassica_10829_1069.pdf",
+      "aliases": "hipertensao HAS BRA",
+      "pop": "a",
+      "c": 0,
+      "u": "mg",
+      "f": [
+        0,
+        0
+      ],
+      "manualDose": true,
+      "ambulatory": true,
+      "reviewedAt": "15/11/2026",
+      "dil": "Usar a apresentação indicada. Posologia textual; não calcular por peso."
+    },
+    {
+      "n": "Anlodipino 5 mg comprimido",
+      "g": "Ambulatório cardiovascular",
+      "r": "VO",
+      "indication": "Hipertensão arterial e angina estável em adultos.",
+      "doseText": "Início usual: 5 mg VO 1 vez/dia. Ajustar à resposta até 10 mg/dia. Tratamento contínuo com reavaliação.",
+      "o": "Monitorar edema periférico, tontura e hipotensão. Cautela e titulação lenta na doença hepática; em geral não exige ajuste renal. Conferir interações, especialmente sinvastatina. Não tratar dor torácica aguda por este modelo.",
+      "source": "https://www.pro.novartis.com/br-pt/sites/pro_novartis_com_br/files/2026-01/Bula-BESILATO-DE-ANLODIPINO-Comprimido-Medico.pdf",
+      "aliases": "amlodipina besilato HAS",
+      "pop": "a",
+      "c": 0,
+      "u": "mg",
+      "f": [
+        0,
+        0
+      ],
+      "manualDose": true,
+      "ambulatory": true,
+      "reviewedAt": "15/11/2026",
+      "dil": "Usar a apresentação indicada. Posologia textual; não calcular por peso."
+    },
+    {
+      "n": "Lactulose 667 mg/mL xarope",
+      "g": "Ambulatório gastrointestinal",
+      "r": "VO",
+      "indication": "Constipação intestinal em adultos, após excluir causas de alarme.",
+      "doseText": "15–30 mL VO/dia; ajustar à resposta e tolerância, evitando diarreia. Reavaliar se persistência dos sintomas. Este esquema não é para encefalopatia hepática.",
+      "o": "Medir em mL com dispositivo dosador; não converter em gotas. Evitar na obstrução intestinal e condições abdominais agudas; conferir contraindicações da bula. Pode causar gases, cólicas e diarreia. Cautela em diabetes e uso prolongado com risco de distúrbios eletrolíticos.",
+      "source": "https://daiichisankyo.com.br/wp-content/uploads/2022/08/Lactulona-bula-PI.pdf",
+      "aliases": "Lactulona constipacao prisao ventre laxante",
+      "pop": "a",
+      "c": 0,
+      "u": "mg",
+      "f": [
+        0,
+        0
+      ],
+      "manualDose": true,
+      "ambulatory": true,
+      "reviewedAt": "15/11/2026",
+      "dil": "Usar a apresentação indicada. Posologia textual; não calcular por peso."
+    }
+  ],
+  "procs": [],
+  "rx": [
+    {
+      "n": "Dipirona gotas 500 mg/mL",
+      "pop": "p",
+      "kind": "l",
+      "c": 500,
+      "k": 15,
+      "mx": 1000,
+      "fr": 6,
+      "dy": 3,
+      "vol": 10,
+      "prn": 1,
+      "gt": 20,
+      "dropBands": [
+        [
+          8,
+          2,
+          5
+        ],
+        [
+          15,
+          3,
+          10
+        ],
+        [
+          23,
+          5,
+          15
+        ],
+        [
+          30,
+          8,
+          20
+        ],
+        [
+          45,
+          10,
+          30
+        ],
+        [
+          53,
+          15,
+          35
+        ]
+      ],
+      "source": "https://www.novalgina.com.br/produtos/adulto/gotas/bula"
+    },
+    {
+      "n": "Paracetamol gotas 200 mg/mL",
+      "pop": "p",
+      "kind": "l",
+      "c": 200,
+      "k": 13.333333333333334,
+      "mx": 750,
+      "fr": 6,
+      "dy": 3,
+      "vol": 15,
+      "prn": 1,
+      "gt": 15,
+      "maxDrops": 35,
+      "source": "https://www.tylenol.com.br/alivio-seguro/instrucoes-de-dosagem/dosagem-para-bebes-e-criancas",
+      "note": "1 gota/kg por dose, no máximo 35 gotas para menores de 12 anos; menores de 2 anos ou 11 kg exigem avaliação médica. Conferir bula do fabricante."
+    },
+    {
+      "n": "Ibuprofeno gotas 50 mg/mL",
+      "pop": "p",
+      "kind": "l",
+      "c": 50,
+      "k": 7.5,
+      "mx": 200,
+      "fr": 8,
+      "dy": 3,
+      "vol": 30,
+      "prn": 1,
+      "gt": 10,
+      "note": "Conferir fator gotas/mL da apresentação. Referência Medley: 10 gotas/mL.",
+      "maxDrops": 40
+    },
+    {
+      "n": "Amoxicilina suspensão 250 mg/5 mL",
+      "pop": "p",
+      "kind": "l",
+      "c": 50,
+      "k": 16.7,
+      "mx": 1000,
+      "fr": 8,
+      "dy": 7,
+      "vol": 150
+    },
+    {
+      "n": "Amoxicilina + clavulanato susp. 400/57 mg/5 mL",
+      "pop": "p",
+      "kind": "l",
+      "c": 80,
+      "k": 22.5,
+      "mx": 1000,
+      "fr": 12,
+      "dy": 7,
+      "vol": 70
+    },
+    {
+      "n": "Azitromicina suspensão 200 mg/5 mL",
+      "pop": "p",
+      "kind": "l",
+      "c": 40,
+      "k": 10,
+      "mx": 500,
+      "fr": 24,
+      "dy": 3,
+      "vol": 15
+    },
+    {
+      "n": "Cefalexina suspensão 250 mg/5 mL",
+      "pop": "p",
+      "kind": "l",
+      "c": 50,
+      "k": 12.5,
+      "mx": 500,
+      "fr": 6,
+      "dy": 7,
+      "vol": 100
+    },
+    {
+      "n": "Prednisolona solução 3 mg/mL",
+      "pop": "p",
+      "kind": "l",
+      "c": 3,
+      "k": 1,
+      "mx": 60,
+      "fr": 24,
+      "dy": 5,
+      "vol": 60
+    },
+    {
+      "n": "Dexclorfeniramina solução 0,4 mg/mL",
+      "pop": "p",
+      "kind": "l",
+      "c": 0.4,
+      "k": 0.04,
+      "mx": 2,
+      "fr": 8,
+      "dy": 5,
+      "vol": 120
+    },
+    {
+      "n": "Desloratadina xarope 0,5 mg/mL",
+      "pop": "p",
+      "kind": "l",
+      "c": 0.5,
+      "t": [
+        [
+          20,
+          1.25
+        ],
+        [
+          999,
+          2.5
+        ]
+      ],
+      "fr": 24,
+      "dy": 5,
+      "vol": 60
+    },
+    {
+      "n": "Loratadina xarope 1 mg/mL",
+      "pop": "p",
+      "kind": "l",
+      "c": 1,
+      "t": [
+        [
+          30,
+          5
+        ],
+        [
+          999,
+          10
+        ]
+      ],
+      "fr": 24,
+      "dy": 5,
+      "vol": 100
+    },
+    {
+      "n": "Domperidona suspensão 1 mg/mL",
+      "pop": "p",
+      "kind": "l",
+      "c": 1,
+      "k": 0.3,
+      "mx": 10,
+      "fr": 8,
+      "dy": 3,
+      "vol": 100
+    },
+    {
+      "n": "Ondansetrona solução 0,8 mg/mL",
+      "pop": "p",
+      "kind": "l",
+      "c": 0.8,
+      "k": 0.15,
+      "mx": 4,
+      "fr": 8,
+      "dy": 2,
+      "vol": 50,
+      "prn": 1
+    },
+    {
+      "n": "Nitazoxanida suspensão 20 mg/mL",
+      "pop": "p",
+      "kind": "l",
+      "c": 20,
+      "k": 7.5,
+      "mx": 500,
+      "fr": 12,
+      "dy": 3,
+      "vol": 45
+    },
+    {
+      "n": "Albendazol suspensão 40 mg/mL",
+      "pop": "p",
+      "kind": "l",
+      "c": 40,
+      "d": 400,
+      "fr": 24,
+      "dy": 1,
+      "vol": 10,
+      "one": 1
+    },
+    {
+      "n": "Salbutamol spray 100 mcg/jato",
+      "pop": "p",
+      "kind": "x",
+      "c": 0,
+      "tx": "Fazer 4 jatos com espaçador, a cada 6 horas, por 5 dias (se falta de ar ou chiado).",
+      "q": "1 frasco",
+      "rt": "INALATÓRIO"
+    },
+    {
+      "n": "Soro fisiológico 0,9% nasal",
+      "pop": "p",
+      "kind": "x",
+      "c": 0,
+      "tx": "Pingar 3 a 5 gotas em cada narina, até 6 vezes ao dia, para limpeza do nariz.",
+      "q": "1 frasco",
+      "rt": "NASAL"
+    },
+    {
+      "n": "Sais de reidratação oral",
+      "pop": "p",
+      "kind": "x",
+      "c": 0,
+      "tx": "Dissolver 1 envelope em 1 litro de água potável e oferecer em pequenos goles após cada evacuação ou vômito.",
+      "q": "4 envelopes"
+    },
+    {
+      "n": "Dipirona 500 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 500,
+      "d": 500,
+      "fr": 6,
+      "dy": 3,
+      "prn": 1
+    },
+    {
+      "n": "Paracetamol 750 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 750,
+      "d": 750,
+      "fr": 6,
+      "dy": 3,
+      "prn": 1
+    },
+    {
+      "n": "Ibuprofeno 600 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 600,
+      "d": 600,
+      "fr": 8,
+      "dy": 3,
+      "prn": 1
+    },
+    {
+      "n": "Diclofenaco potássico 50 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 50,
+      "d": 50,
+      "fr": 8,
+      "dy": 3,
+      "prn": 1
+    },
+    {
+      "n": "Tramadol 50 mg cápsula",
+      "pop": "a",
+      "kind": "t",
+      "c": 50,
+      "d": 50,
+      "fr": 8,
+      "dy": 3,
+      "prn": 1
+    },
+    {
+      "n": "Amoxicilina 500 mg cápsula",
+      "pop": "a",
+      "kind": "t",
+      "c": 500,
+      "d": 500,
+      "fr": 8,
+      "dy": 7
+    },
+    {
+      "n": "Amoxicilina + clavulanato 875/125 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 875,
+      "d": 875,
+      "fr": 12,
+      "dy": 7
+    },
+    {
+      "n": "Azitromicina 500 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 500,
+      "d": 500,
+      "fr": 24,
+      "dy": 3
+    },
+    {
+      "n": "Cefalexina 500 mg cápsula",
+      "pop": "a",
+      "kind": "t",
+      "c": 500,
+      "d": 500,
+      "fr": 6,
+      "dy": 7
+    },
+    {
+      "n": "Metronidazol 250 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 250,
+      "d": 500,
+      "fr": 8,
+      "dy": 7
+    },
+    {
+      "n": "Nitazoxanida 500 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 500,
+      "d": 500,
+      "fr": 12,
+      "dy": 3
+    },
+    {
+      "n": "Albendazol 400 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 400,
+      "d": 400,
+      "fr": 24,
+      "dy": 1,
+      "one": 1
+    },
+    {
+      "n": "Ivermectina 6 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 6,
+      "k": 0.2,
+      "fr": 24,
+      "dy": 1,
+      "one": 1,
+      "jej": 1,
+      "hidden": 1
+    },
+    {
+      "n": "Prednisona 20 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 20,
+      "d": 40,
+      "fr": 24,
+      "dy": 5
+    },
+    {
+      "n": "Loratadina 10 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 10,
+      "d": 10,
+      "fr": 24,
+      "dy": 5
+    },
+    {
+      "n": "Desloratadina 5 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 5,
+      "d": 5,
+      "fr": 24,
+      "dy": 5
+    },
+    {
+      "n": "Omeprazol 20 mg cápsula",
+      "pop": "a",
+      "kind": "t",
+      "c": 20,
+      "d": 20,
+      "fr": 24,
+      "dy": 14,
+      "jej": 1
+    },
+    {
+      "n": "Ondansetrona 8 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 8,
+      "d": 8,
+      "fr": 8,
+      "dy": 2,
+      "prn": 1
+    },
+    {
+      "n": "Metoclopramida 10 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 10,
+      "d": 10,
+      "fr": 8,
+      "dy": 3,
+      "prn": 1
+    },
+    {
+      "n": "Hioscina 10 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 10,
+      "d": 10,
+      "fr": 8,
+      "dy": 3,
+      "prn": 1
+    },
+    {
+      "n": "Salbutamol spray 100 mcg/jato",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "tx": "Fazer 2 a 4 jatos, a cada 6 horas, por 5 dias (se falta de ar ou chiado).",
+      "q": "1 frasco",
+      "rt": "INALATÓRIO"
+    },
+    {
+      "n": "Aciclovir 200 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 200,
+      "d": 400,
+      "fr": 8,
+      "dy": 7
+    },
+    {
+      "n": "Amoxicilina + clavulanato 500/125 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 500,
+      "d": 500,
+      "fr": 8,
+      "dy": 7
+    },
+    {
+      "n": "Amoxicilina + clavulanato susp. 250/62,5 mg/5 mL",
+      "pop": "p",
+      "kind": "l",
+      "c": 50,
+      "k": 13.3,
+      "mx": 500,
+      "fr": 8,
+      "dy": 7,
+      "vol": 75
+    },
+    {
+      "n": "Ciprofloxacino 500 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 500,
+      "d": 500,
+      "fr": 12,
+      "dy": 7
+    },
+    {
+      "n": "Clindamicina 300 mg cápsula",
+      "pop": "a",
+      "kind": "t",
+      "c": 300,
+      "d": 300,
+      "fr": 6,
+      "dy": 7
+    },
+    {
+      "n": "Nitrofurantoína 100 mg cápsula",
+      "pop": "a",
+      "kind": "t",
+      "c": 100,
+      "d": 100,
+      "fr": 6,
+      "dy": 5
+    },
+    {
+      "n": "Sulfametoxazol + trimetoprima 400/80 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 400,
+      "d": 800,
+      "fr": 12,
+      "dy": 7
+    },
+    {
+      "n": "Sulfametoxazol + trimetoprima susp. 200/40 mg/5 mL",
+      "pop": "p",
+      "kind": "l",
+      "c": 40,
+      "k": 20,
+      "mx": 800,
+      "fr": 12,
+      "dy": 7,
+      "vol": 100
+    },
+    {
+      "n": "Paracetamol 500 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 500,
+      "d": 1000,
+      "fr": 6,
+      "dy": 3,
+      "prn": 1
+    },
+    {
+      "n": "Ibuprofeno 300 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 300,
+      "d": 300,
+      "fr": 8,
+      "dy": 3,
+      "prn": 1
+    },
+    {
+      "n": "Prometazina 25 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 25,
+      "d": 25,
+      "fr": 12,
+      "dy": 3,
+      "prn": 1,
+      "cat": "Psiquiatria · Adjuvantes",
+      "aliases": "Fenergan",
+      "note": "Individualizar indicação; avaliar sedação, hipotensão e efeitos anticolinérgicos."
+    },
+    {
+      "n": "Furosemida 40 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 40,
+      "d": 40,
+      "fr": 24,
+      "dy": 30
+    },
+    {
+      "n": "Atenolol 50 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 50,
+      "d": 50,
+      "fr": 24,
+      "dy": 30
+    },
+    {
+      "n": "Propranolol 40 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 40,
+      "d": 40,
+      "fr": 12,
+      "dy": 30
+    },
+    {
+      "n": "Hidroclorotiazida 25 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 25,
+      "d": 25,
+      "fr": 24,
+      "dy": 30
+    },
+    {
+      "n": "Captopril 25 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 25,
+      "d": 25,
+      "fr": 8,
+      "dy": 30
+    },
+    {
+      "n": "Sinvastatina 20 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 20,
+      "d": 20,
+      "fr": 24,
+      "dy": 30,
+      "al": "à noite"
+    },
+    {
+      "n": "Metformina 850 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 850,
+      "d": 850,
+      "fr": 12,
+      "dy": 30,
+      "al": "junto às refeições"
+    },
+    {
+      "n": "Glibenclamida 5 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 5,
+      "d": 5,
+      "fr": 24,
+      "dy": 30,
+      "al": "antes do café da manhã"
+    },
+    {
+      "n": "Sulfato ferroso 40 mg (ferro) comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 40,
+      "d": 40,
+      "fr": 8,
+      "dy": 30,
+      "al": "longe das refeições"
+    },
+    {
+      "n": "Carbonato de cálcio 500 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 500,
+      "d": 500,
+      "fr": 12,
+      "dy": 30,
+      "al": "com as refeições"
+    },
+    {
+      "n": "Permetrina 5% loção (escabiose)",
+      "pop": "p",
+      "kind": "x",
+      "c": 0,
+      "tx": "Aplicar do pescoço aos pés à noite, deixar agir por 8 a 14 horas e lavar. Repetir após 7 dias.",
+      "q": "1 frasco",
+      "rt": "TÓPICO",
+      "minAge": 2,
+      "note": "A partir de 2 meses. Em crianças pequenas, avaliar aplicação também em couro cabeludo e pescoço, evitando olhos e mucosas. Tratar contatos simultaneamente e higienizar roupas e roupa de cama."
+    },
+    {
+      "n": "Permetrina 5% loção (escabiose)",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "tx": "Aplicar do pescoço aos pés à noite, deixar agir por 8 a 14 horas e lavar. Repetir após 7 dias.",
+      "q": "1 frasco",
+      "rt": "TÓPICO",
+      "minAge": 2,
+      "note": "A partir de 2 meses. Em crianças pequenas, avaliar aplicação também em couro cabeludo e pescoço, evitando olhos e mucosas. Tratar contatos simultaneamente e higienizar roupas e roupa de cama."
+    },
+    {
+      "n": "Permetrina 1% solução (pediculose)",
+      "pop": "p",
+      "kind": "x",
+      "c": 0,
+      "tx": "Aplicar nos cabelos úmidos após o xampu, deixar por 10 minutos e enxaguar. Repetir após 7 a 10 dias.",
+      "q": "1 frasco",
+      "rt": "TÓPICO"
+    },
+    {
+      "n": "Permetrina 1% solução (pediculose)",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "tx": "Aplicar nos cabelos úmidos após o xampu, deixar por 10 minutos e enxaguar. Repetir após 7 a 10 dias.",
+      "q": "1 frasco",
+      "rt": "TÓPICO"
+    },
+    {
+      "n": "Dexametasona 1 mg/g creme",
+      "pop": "p",
+      "kind": "x",
+      "c": 0,
+      "tx": "Aplicar camada fina nas lesões, 2 vezes ao dia, por 5 a 7 dias.",
+      "q": "1 bisnaga",
+      "rt": "TÓPICO"
+    },
+    {
+      "n": "Dexametasona 1 mg/g creme",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "tx": "Aplicar camada fina nas lesões, 2 vezes ao dia, por 5 a 7 dias.",
+      "q": "1 bisnaga",
+      "rt": "TÓPICO"
+    },
+    {
+      "n": "Mometasona 0,1% creme",
+      "pop": "p",
+      "kind": "x",
+      "c": 0,
+      "tx": "Aplicar camada fina nas lesões, 1 vez ao dia, por até 7 dias.",
+      "q": "1 bisnaga",
+      "rt": "TÓPICO"
+    },
+    {
+      "n": "Mometasona 0,1% creme",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "tx": "Aplicar camada fina nas lesões, 1 vez ao dia, por até 7 dias.",
+      "q": "1 bisnaga",
+      "rt": "TÓPICO"
+    },
+    {
+      "n": "Nistatina 100.000 UI/mL suspensão",
+      "pop": "p",
+      "kind": "x",
+      "c": 0,
+      "tx": "Aplicar 2 a 4 mL na boca, mantendo antes de engolir, de 6/6 horas, por 7 a 14 dias.",
+      "q": "1 frasco",
+      "rt": "ORAL"
+    },
+    {
+      "n": "Nistatina 25.000 UI/g creme vaginal",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "tx": "Aplicar 1 aplicador na vagina ao deitar, por 14 dias.",
+      "q": "1 bisnaga",
+      "rt": "VAGINAL"
+    },
+    {
+      "n": "Metronidazol 100 mg/g geleia vaginal",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "tx": "Aplicar 1 aplicador na vagina ao deitar, por 7 a 10 dias.",
+      "q": "1 bisnaga",
+      "rt": "VAGINAL"
+    },
+    {
+      "n": "Salmeterol + fluticasona 25/125 mcg spray",
+      "pop": "p",
+      "kind": "x",
+      "c": 0,
+      "tx": "Fazer 2 jatos, 2 vezes ao dia, com espaçador, e enxaguar a boca depois.",
+      "q": "1 frasco",
+      "rt": "INALATÓRIO"
+    },
+    {
+      "n": "Salmeterol + fluticasona 25/125 mcg spray",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "tx": "Fazer 2 jatos, 2 vezes ao dia, com espaçador, e enxaguar a boca depois.",
+      "q": "1 frasco",
+      "rt": "INALATÓRIO"
+    },
+    {
+      "n": "Dipirona solução oral (xarope) 50 mg/mL",
+      "pop": "p",
+      "kind": "l",
+      "c": 50,
+      "k": 15,
+      "mx": 1000,
+      "fr": 6,
+      "dy": 3,
+      "vol": 100,
+      "prn": 1,
+      "minW": 5,
+      "note": "Medir em mL. Conforme tabela de faixas de peso da bula da solução oral 50 mg/mL.",
+      "volumeBands": [
+        [
+          8,
+          1.25,
+          2.5
+        ],
+        [
+          15,
+          2.5,
+          5
+        ],
+        [
+          23,
+          3.75,
+          7.5
+        ],
+        [
+          30,
+          5,
+          10
+        ],
+        [
+          45,
+          7.5,
+          15
+        ],
+        [
+          53,
+          8.75,
+          17.5
+        ]
+      ]
+    },
+    {
+      "n": "Dipirona solução oral (xarope) 50 mg/mL",
+      "pop": "a",
+      "kind": "l",
+      "c": 50,
+      "d": 500,
+      "fr": 6,
+      "dy": 3,
+      "vol": 100,
+      "prn": 1
+    },
+    {
+      "n": "Ivermectina 6 mg comprimido — escabiose",
+      "pop": "p",
+      "kind": "t",
+      "c": 6,
+      "k": 0.2,
+      "fr": 24,
+      "dy": 1,
+      "one": 1,
+      "repeat": 7,
+      "minW": 15,
+      "iverm": 1
+    },
+    {
+      "n": "Ivermectina 6 mg comprimido — escabiose",
+      "pop": "a",
+      "kind": "t",
+      "c": 6,
+      "k": 0.2,
+      "fr": 24,
+      "dy": 1,
+      "one": 1,
+      "repeat": 7,
+      "minW": 15,
+      "iverm": 1
+    },
+    {
+      "n": "Paracetamol solução oral 32 mg/mL",
+      "pop": "p",
+      "kind": "l",
+      "c": 32,
+      "k": 12.5,
+      "mx": 750,
+      "fr": 6,
+      "dy": 3,
+      "vol": 60,
+      "prn": 1
+    },
+    {
+      "n": "Ibuprofeno gotas 100 mg/mL",
+      "pop": "p",
+      "kind": "l",
+      "c": 100,
+      "k": 7.5,
+      "mx": 200,
+      "fr": 8,
+      "dy": 3,
+      "vol": 20,
+      "prn": 1,
+      "gt": 10,
+      "note": "Conferir marca: 100 mg/mL pode ter fator diferente (ex.: 9 ou 10 gotas/mL). Referência Medley: 10 gotas/mL.",
+      "maxDrops": 20
+    },
+    {
+      "n": "Amoxicilina suspensão 400 mg/5 mL",
+      "pop": "p",
+      "kind": "l",
+      "c": 80,
+      "k": 16.7,
+      "mx": 1000,
+      "fr": 8,
+      "dy": 7,
+      "vol": 100
+    },
+    {
+      "n": "Cefalexina suspensão 125 mg/5 mL",
+      "pop": "p",
+      "kind": "l",
+      "c": 25,
+      "k": 12.5,
+      "mx": 500,
+      "fr": 6,
+      "dy": 7,
+      "vol": 100
+    },
+    {
+      "n": "Prednisolona solução 1 mg/mL",
+      "pop": "p",
+      "kind": "l",
+      "c": 1,
+      "k": 1,
+      "mx": 60,
+      "fr": 24,
+      "dy": 5,
+      "vol": 100
+    },
+    {
+      "n": "Dipirona 1 g comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 1000,
+      "d": 1000,
+      "fr": 6,
+      "dy": 3,
+      "prn": 1,
+      "vol": 0
+    },
+    {
+      "n": "Ibuprofeno 400 mg comprimido",
+      "pop": "a",
+      "kind": "t",
+      "c": 400,
+      "d": 400,
+      "fr": 8,
+      "dy": 3,
+      "prn": 1,
+      "vol": 0
+    },
+    {
+      "n": "Losartana 50 mg comprimido",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "manual": 1,
+      "cat": "Cardiovascular",
+      "rt": "ORAL",
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Anlodipino 5 mg comprimido",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "manual": 1,
+      "cat": "Cardiovascular",
+      "rt": "ORAL",
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Enalapril 10 mg comprimido",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "manual": 1,
+      "cat": "Cardiovascular",
+      "rt": "ORAL",
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Espironolactona 25 mg comprimido",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "manual": 1,
+      "cat": "Cardiovascular",
+      "rt": "ORAL",
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Metformina 500 mg comprimido",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "manual": 1,
+      "cat": "Diabetes",
+      "rt": "ORAL",
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Pantoprazol 40 mg comprimido",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "manual": 1,
+      "cat": "Gastrointestinal",
+      "rt": "ORAL",
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Doxiciclina 100 mg comprimido",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "manual": 1,
+      "cat": "Antimicrobianos",
+      "rt": "ORAL",
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Fluconazol 150 mg cápsula",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "manual": 1,
+      "cat": "Antimicrobianos",
+      "rt": "ORAL",
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Cetoconazol 20 mg/g creme",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "manual": 1,
+      "cat": "Dermatologia",
+      "rt": "TÓPICO",
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Miconazol 20 mg/g creme",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "manual": 1,
+      "cat": "Dermatologia",
+      "rt": "TÓPICO",
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Clotrimazol 10 mg/g creme",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "manual": 1,
+      "cat": "Dermatologia",
+      "rt": "TÓPICO",
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Mupirocina 20 mg/g pomada",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "manual": 1,
+      "cat": "Dermatologia",
+      "rt": "TÓPICO",
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Hidrocortisona 10 mg/g creme",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "manual": 1,
+      "cat": "Dermatologia",
+      "rt": "TÓPICO",
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Dexpantenol 50 mg/g pomada",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "manual": 1,
+      "cat": "Dermatologia",
+      "rt": "TÓPICO",
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Cetirizina 10 mg comprimido",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "manual": 1,
+      "cat": "Alergia",
+      "rt": "ORAL",
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Fexofenadina 120 mg comprimido",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "manual": 1,
+      "cat": "Alergia",
+      "rt": "ORAL",
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Budesonida 32 mcg/dose spray nasal",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "manual": 1,
+      "cat": "Respiratório",
+      "rt": "NASAL",
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Beclometasona 50 mcg/dose aerossol",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "manual": 1,
+      "cat": "Respiratório",
+      "rt": "INALATÓRIO",
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Polietilenoglicol 3350 pó oral",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "manual": 1,
+      "cat": "Gastrointestinal",
+      "rt": "ORAL",
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Lactulose 667 mg/mL solução oral",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "manual": 1,
+      "cat": "Gastrointestinal",
+      "rt": "ORAL",
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Risperidona 1 mg comprimido",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "cat": "Psiquiatria · Antipsicóticos",
+      "aliases": "Risperdal Risperidon psicose mania",
+      "rt": "ORAL",
+      "note": "Individualizar dose e titulação conforme indicação e tratamento prévio. Não calcular automaticamente somente pelo peso. Preencher dose, intervalo, duração e quantidade. Conferir o receituário exigido para a dispensação.",
+      "source": "https://www.cristalia.com.br/produto/371/bula-profissional",
+      "manual": 1,
+      "psy": 1,
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Risperidona 2 mg comprimido",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "cat": "Psiquiatria · Antipsicóticos",
+      "aliases": "Risperdal Risperidon psicose mania",
+      "rt": "ORAL",
+      "note": "Individualizar dose e titulação conforme indicação e tratamento prévio. Não calcular automaticamente somente pelo peso. Preencher dose, intervalo, duração e quantidade. Conferir o receituário exigido para a dispensação.",
+      "source": "https://www.cristalia.com.br/produto/371/bula-profissional",
+      "manual": 1,
+      "psy": 1,
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Risperidona 3 mg comprimido",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "cat": "Psiquiatria · Antipsicóticos",
+      "aliases": "Risperdal Risperidon psicose mania",
+      "rt": "ORAL",
+      "note": "Individualizar dose e titulação conforme indicação e tratamento prévio. Não calcular automaticamente somente pelo peso. Preencher dose, intervalo, duração e quantidade. Conferir o receituário exigido para a dispensação.",
+      "source": "https://www.cristalia.com.br/produto/371/bula-profissional",
+      "manual": 1,
+      "psy": 1,
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Risperidona solução oral 1 mg/mL",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "cat": "Psiquiatria · Antipsicóticos",
+      "aliases": "Risperdal Risperidon psicose mania",
+      "rt": "ORAL",
+      "note": "Medir em mL com seringa dosadora. Não presumir equivalência em gotas. Preencher dose, intervalo, duração e quantidade. Conferir o receituário exigido para a dispensação.",
+      "source": "https://www.cristalia.com.br/produto/371/bula-profissional",
+      "manual": 1,
+      "psy": 1,
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Haloperidol 1 mg comprimido",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "cat": "Psiquiatria · Antipsicóticos",
+      "aliases": "Haldol Halo agitação psicose",
+      "rt": "ORAL",
+      "note": "Avaliar QT, interações, sintomas extrapiramidais e contraindicações. Preencher dose, intervalo, duração e quantidade. Conferir o receituário exigido para a dispensação.",
+      "source": "https://www.cristalia.com.br/produto/195/bula-profissional",
+      "manual": 1,
+      "psy": 1,
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Haloperidol 5 mg comprimido",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "cat": "Psiquiatria · Antipsicóticos",
+      "aliases": "Haldol Halo agitação psicose",
+      "rt": "ORAL",
+      "note": "Avaliar QT, interações, sintomas extrapiramidais e contraindicações. Preencher dose, intervalo, duração e quantidade. Conferir o receituário exigido para a dispensação.",
+      "source": "https://www.cristalia.com.br/produto/195/bula-profissional",
+      "manual": 1,
+      "psy": 1,
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Haloperidol gotas 2 mg/mL",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "cat": "Psiquiatria · Antipsicóticos",
+      "aliases": "Haldol Halo psicose",
+      "rt": "ORAL",
+      "note": "Conferir o fator gotas/mL da apresentação dispensada; não converter automaticamente em gotas. Preencher dose, intervalo, duração e quantidade. Conferir o receituário exigido para a dispensação.",
+      "source": "https://www.cristalia.com.br/produto/195/bula-profissional",
+      "manual": 1,
+      "psy": 1,
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Haloperidol injetável 5 mg/mL — ampola 1 mL",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "cat": "Psiquiatria · Antipsicóticos",
+      "aliases": "Haldol Halo agitação ação imediata",
+      "rt": "INTRAMUSCULAR",
+      "note": "Ação imediata, diferente do decanoato. Uso em serviço de saúde; monitorar consciência, sinais vitais, QT e efeitos extrapiramidais. Preencher dose, intervalo, duração e quantidade. Conferir o receituário exigido para a dispensação.",
+      "source": "https://www.cristalia.com.br/produtos?L=h",
+      "manual": 1,
+      "psy": 1,
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Decanoato de haloperidol 50 mg/mL — ampola 1 mL (Haldol Decanoato)",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "cat": "Psiquiatria · Depósito / manutenção",
+      "aliases": "Halo depot Haldol decanoato",
+      "rt": "INTRAMUSCULAR",
+      "note": "DEPÓSITO: manutenção de paciente previamente estabilizado; não é medicação de resgate para agitação aguda. Confirmar esquema anterior, última aplicação, dose e intervalo. Somente IM profunda; nunca IV. Aplicação por profissional de saúde. Preencher dose, intervalo, duração e quantidade. Conferir o receituário exigido para a dispensação.",
+      "source": "https://www.cristalia.com.br/produto/321/bula-profissional",
+      "manual": 1,
+      "psy": 1,
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Clorpromazina 25 mg comprimido",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "cat": "Psiquiatria · Antipsicóticos",
+      "aliases": "Amplictil Longactil psicose agitação",
+      "rt": "ORAL",
+      "note": "Risco de hipotensão, sedação, prolongamento do QT e efeitos anticolinérgicos. Preencher dose, intervalo, duração e quantidade. Conferir o receituário exigido para a dispensação.",
+      "source": "https://www.cristalia.com.br/produto/322/bula-paciente",
+      "manual": 1,
+      "psy": 1,
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Clorpromazina 100 mg comprimido",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "cat": "Psiquiatria · Antipsicóticos",
+      "aliases": "Amplictil Longactil psicose agitação",
+      "rt": "ORAL",
+      "note": "Risco de hipotensão, sedação, prolongamento do QT e efeitos anticolinérgicos. Preencher dose, intervalo, duração e quantidade. Conferir o receituário exigido para a dispensação.",
+      "source": "https://www.cristalia.com.br/produto/322/bula-paciente",
+      "manual": 1,
+      "psy": 1,
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Clorpromazina injetável 5 mg/mL — ampola 5 mL (25 mg)",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "cat": "Psiquiatria · Antipsicóticos",
+      "aliases": "Amplictil Longactil agitação",
+      "rt": "INTRAMUSCULAR",
+      "note": "Uso em serviço de saúde. Monitorar pressão arterial e sedação; risco importante de hipotensão. Preencher dose, intervalo, duração e quantidade. Conferir o receituário exigido para a dispensação.",
+      "source": "https://www.cristalia.com.br/produtos?L=l&busca=&categorias=&page=2",
+      "manual": 1,
+      "psy": 1,
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Olanzapina 5 mg comprimido",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "cat": "Psiquiatria · Antipsicóticos",
+      "aliases": "Zyprexa psicose mania",
+      "rt": "ORAL",
+      "note": "Apresentação oral. Individualizar dose; avaliar sedação e riscos metabólicos. Preencher dose, intervalo, duração e quantidade. Conferir o receituário exigido para a dispensação.",
+      "source": "https://www.cristalia.com.br/produto/75/bula-profissional",
+      "manual": 1,
+      "psy": 1,
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Olanzapina 10 mg comprimido",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "cat": "Psiquiatria · Antipsicóticos",
+      "aliases": "Zyprexa psicose mania",
+      "rt": "ORAL",
+      "note": "Apresentação oral. Individualizar dose; avaliar sedação e riscos metabólicos. Preencher dose, intervalo, duração e quantidade. Conferir o receituário exigido para a dispensação.",
+      "source": "https://www.cristalia.com.br/produto/75/bula-profissional",
+      "manual": 1,
+      "psy": 1,
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Quetiapina 25 mg comprimido de liberação imediata",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "cat": "Psiquiatria · Antipsicóticos",
+      "aliases": "Seroquel Quetipin psicose mania",
+      "rt": "ORAL",
+      "note": "Liberação imediata: não intercambiar automaticamente com liberação prolongada. Individualizar titulação; avaliar hipotensão e sedação. Preencher dose, intervalo, duração e quantidade. Conferir o receituário exigido para a dispensação.",
+      "source": "https://www.cristalia.com.br/produto/149/bula-profissional",
+      "manual": 1,
+      "psy": 1,
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Quetiapina 100 mg comprimido de liberação imediata",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "cat": "Psiquiatria · Antipsicóticos",
+      "aliases": "Seroquel Quetipin psicose mania",
+      "rt": "ORAL",
+      "note": "Liberação imediata: não intercambiar automaticamente com liberação prolongada. Individualizar titulação; avaliar hipotensão e sedação. Preencher dose, intervalo, duração e quantidade. Conferir o receituário exigido para a dispensação.",
+      "source": "https://www.cristalia.com.br/produto/149/bula-profissional",
+      "manual": 1,
+      "psy": 1,
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Quetiapina 200 mg comprimido de liberação imediata",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "cat": "Psiquiatria · Antipsicóticos",
+      "aliases": "Seroquel Quetipin psicose mania",
+      "rt": "ORAL",
+      "note": "Liberação imediata: não intercambiar automaticamente com liberação prolongada. Individualizar titulação; avaliar hipotensão e sedação. Preencher dose, intervalo, duração e quantidade. Conferir o receituário exigido para a dispensação.",
+      "source": "https://www.cristalia.com.br/produto/149/bula-profissional",
+      "manual": 1,
+      "psy": 1,
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Clonazepam 0,5 mg comprimido",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "cat": "Psiquiatria · Benzodiazepínicos",
+      "aliases": "Rivotril Clopam ansiedade",
+      "rt": "ORAL",
+      "note": "Risco de sedação e dependência; associação com álcool, opioides e outros sedativos aumenta risco respiratório. Preencher dose, intervalo, duração e quantidade. Conferir o receituário exigido para a dispensação.",
+      "source": "https://www.cristalia.com.br/produto/190/bula-profissional",
+      "manual": 1,
+      "psy": 1,
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Clonazepam 2 mg comprimido",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "cat": "Psiquiatria · Benzodiazepínicos",
+      "aliases": "Rivotril Clopam ansiedade",
+      "rt": "ORAL",
+      "note": "Risco de sedação e dependência; associação com álcool, opioides e outros sedativos aumenta risco respiratório. Preencher dose, intervalo, duração e quantidade. Conferir o receituário exigido para a dispensação.",
+      "source": "https://www.cristalia.com.br/produto/190/bula-profissional",
+      "manual": 1,
+      "psy": 1,
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Clonazepam gotas 2,5 mg/mL",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "cat": "Psiquiatria · Benzodiazepínicos",
+      "aliases": "Rivotril Clopam ansiedade",
+      "rt": "ORAL",
+      "note": "Conferir fator gotas/mL na bula do produto. Risco de sedação e depressão respiratória em associações. Preencher dose, intervalo, duração e quantidade. Conferir o receituário exigido para a dispensação.",
+      "source": "https://www.cristalia.com.br/produto/190/bula-profissional",
+      "manual": 1,
+      "psy": 1,
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Diazepam 5 mg comprimido",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "cat": "Psiquiatria · Benzodiazepínicos",
+      "aliases": "Valium Compaz abstinência ansiedade",
+      "rt": "ORAL",
+      "note": "Individualizar conforme indicação; avaliar intoxicação por depressores do SNC, função respiratória e risco de quedas. Preencher dose, intervalo, duração e quantidade. Conferir o receituário exigido para a dispensação.",
+      "source": "https://www.cristalia.com.br/produto/208/bula-profissional",
+      "manual": 1,
+      "psy": 1,
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Diazepam 10 mg comprimido",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "cat": "Psiquiatria · Benzodiazepínicos",
+      "aliases": "Valium Compaz abstinência ansiedade",
+      "rt": "ORAL",
+      "note": "Individualizar conforme indicação; avaliar intoxicação por depressores do SNC, função respiratória e risco de quedas. Preencher dose, intervalo, duração e quantidade. Conferir o receituário exigido para a dispensação.",
+      "source": "https://www.cristalia.com.br/produto/208/bula-profissional",
+      "manual": 1,
+      "psy": 1,
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Diazepam injetável 5 mg/mL — ampola 2 mL (10 mg)",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "cat": "Psiquiatria · Benzodiazepínicos",
+      "aliases": "Valium Compaz abstinência convulsão",
+      "rt": "INTRAVENOSO",
+      "note": "Uso em ambiente monitorizado, administração IV lenta conforme bula/protocolo. Especificar dose, velocidade e critérios de reavaliação. Risco de depressão respiratória. Preencher dose, intervalo, duração e quantidade. Conferir o receituário exigido para a dispensação.",
+      "source": "https://www.cristalia.com.br/produto/208/bula-profissional",
+      "manual": 1,
+      "psy": 1,
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Biperideno 2 mg comprimido",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "cat": "Psiquiatria · Adjuvantes",
+      "aliases": "Akineton Cinetol extrapiramidal distonia",
+      "rt": "ORAL",
+      "note": "Não é sedativo de rotina. Avaliar indicação para efeitos extrapiramidais e contraindicações anticolinérgicas. Preencher dose, intervalo, duração e quantidade. Conferir o receituário exigido para a dispensação.",
+      "source": "https://www.gov.br/saude/pt-br/composicao/sectics/rename/rename-2017.pdf",
+      "manual": 1,
+      "psy": 1,
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Biperideno injetável 5 mg/mL — ampola 1 mL",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "cat": "Psiquiatria · Adjuvantes",
+      "aliases": "Akineton Cinetol extrapiramidal distonia",
+      "rt": "INTRAMUSCULAR",
+      "note": "Para indicação específica, como distonia aguda; não associar automaticamente a todo antipsicótico. Conferir bula e reavaliar resposta. Preencher dose, intervalo, duração e quantidade. Conferir o receituário exigido para a dispensação.",
+      "source": "https://www.cristalia.com.br/produtos?L=c",
+      "manual": 1,
+      "psy": 1,
+      "tx": "",
+      "q": ""
+    },
+    {
+      "n": "Prometazina injetável 25 mg/mL — ampola 2 mL (50 mg)",
+      "pop": "a",
+      "kind": "x",
+      "c": 0,
+      "cat": "Psiquiatria · Adjuvantes",
+      "aliases": "Fenergan agitação",
+      "rt": "INTRAMUSCULAR",
+      "note": "Somente IM profunda neste modelo. Uso em serviço de saúde; risco de sedação, hipotensão e efeitos anticolinérgicos. Não usar por via intra-arterial ou subcutânea. Preencher dose, intervalo, duração e quantidade. Conferir o receituário exigido para a dispensação.",
+      "source": "https://linhasdecuidado.saude.gov.br/portal/depressao/servico-de-atendimento-movel/manejo-inicial/",
+      "manual": 1,
+      "psy": 1,
+      "tx": "",
+      "q": ""
+    }
+  ],
+  "vaso": [
+    {
+      "n": "Noradrenalina",
+      "cls": "Vasopressor",
+      "k": "p",
+      "u": "mcg/kg/min",
+      "w": 1,
+      "c": 64,
+      "cc": "64 mcg/mL",
+      "via": "Acesso central preferencial",
+      "q": "4 ampolas (16 mg) + 234 mL de SG 5% = 250 mL",
+      "rng": [
+        {
+          "l": "Faixa usual",
+          "lo": 0.05,
+          "hi": 0.5,
+          "t": "início 0,05"
+        },
+        {
+          "l": "Choque refratário",
+          "lo": 0.5,
+          "hi": 3
+        }
+      ],
+      "prep": [
+        "Ampola de 4 mL (2 mg/mL de hemitartarato = 1 mg/mL de noradrenalina base; 4 mg base por ampola).",
+        "Aspirar 16 mL (4 ampolas = 16 mg).",
+        "Completar com 234 mL de SG 5% até 250 mL.",
+        "Concentração final: 64 mcg/mL.",
+        "Bomba de infusão, acesso central; trocar a solução a cada 24 h.",
+        "Não misturar com bicarbonato (inativa em pH alcalino)."
+      ],
+      "ef": [
+        "Isquemia e necrose de extremidades",
+        "Extravasamento causa necrose tecidual (infiltrar fentolamina)",
+        "Arritmias e bradicardia reflexa",
+        "Hipertensão excessiva",
+        "Redução da perfusão renal e esplâncnica",
+        "Cefaleia e ansiedade"
+      ]
+    },
+    {
+      "n": "Adrenalina (infusão)",
+      "cls": "Vasopressor",
+      "k": "p",
+      "u": "mcg/kg/min",
+      "w": 1,
+      "c": 16,
+      "cc": "16 mcg/mL",
+      "via": "Acesso central preferencial",
+      "q": "4 ampolas (4 mg) + 246 mL de SG 5% = 250 mL",
+      "rng": [
+        {
+          "l": "Efeito beta (inotrópico)",
+          "lo": 0.01,
+          "hi": 0.1
+        },
+        {
+          "l": "Efeito alfa e beta (vasopressor)",
+          "lo": 0.1,
+          "hi": 0.5
+        }
+      ],
+      "prep": [
+        "Ampola de 1 mg/mL.",
+        "Aspirar 4 mL (4 mg).",
+        "Completar com 246 mL de SG 5% (ou SF) até 250 mL.",
+        "Concentração final: 16 mcg/mL.",
+        "Bomba de infusão; inativada em solução alcalina."
+      ],
+      "ef": [
+        "Taquicardia e arritmias",
+        "Hipertensão",
+        "Aumento de lactato (hiperlactatemia)",
+        "Hiperglicemia e hipocalemia",
+        "Isquemia periférica e esplâncnica",
+        "Tremor e ansiedade"
+      ]
+    },
+    {
+      "n": "Dopamina · dose dopaminérgica (D1)",
+      "cls": "Vasopressor",
+      "k": "p",
+      "u": "mcg/kg/min",
+      "w": 1,
+      "c": 1000,
+      "cc": "1.000 mcg/mL",
+      "via": "Acesso central preferencial",
+      "q": "5 ampolas (250 mg) + 200 mL de SG 5% = 250 mL",
+      "rng": [
+        {
+          "l": "Dose dopaminérgica (D1)",
+          "lo": 1,
+          "hi": 3,
+          "t": "sem proteção renal comprovada"
+        }
+      ],
+      "prep": [
+        "Ampola de 50 mg/10 mL (5 mg/mL).",
+        "Aspirar 50 mL (5 ampolas = 250 mg).",
+        "Completar com 200 mL de SG 5% até 250 mL.",
+        "Concentração final: 1.000 mcg/mL (1 mg/mL).",
+        "Bomba de infusão; não misturar com bicarbonato."
+      ],
+      "ef": [
+        "Náuseas e vômitos",
+        "Taquicardia e taquiarritmias",
+        "Cefaleia",
+        "Extravasamento causa necrose tecidual",
+        "Supressão de prolactina e do eixo hipofisário"
+      ]
+    },
+    {
+      "n": "Dopamina · dose beta (inotrópica)",
+      "cls": "Inotrópico",
+      "k": "i",
+      "u": "mcg/kg/min",
+      "w": 1,
+      "c": 1000,
+      "cc": "1.000 mcg/mL",
+      "via": "Acesso central preferencial",
+      "q": "Mesma solução: 5 ampolas (250 mg) + 200 mL de SG 5%",
+      "rng": [
+        {
+          "l": "Dose beta (β1): ↑ contratilidade e FC",
+          "lo": 3,
+          "hi": 10
+        }
+      ],
+      "prep": [
+        "Mesma solução da dopamina dopaminérgica (1.000 mcg/mL).",
+        "Aumento de contratilidade e frequência cardíaca."
+      ],
+      "ef": [
+        "Taquicardia e arritmias (atriais e ventriculares)",
+        "Aumento do consumo de O₂ do miocárdio",
+        "Isquemia miocárdica",
+        "Náuseas",
+        "Extravasamento causa necrose"
+      ]
+    },
+    {
+      "n": "Dopamina · dose alfa (vasopressora)",
+      "cls": "Vasopressor",
+      "k": "p",
+      "u": "mcg/kg/min",
+      "w": 1,
+      "c": 1000,
+      "cc": "1.000 mcg/mL",
+      "via": "Acesso central obrigatório",
+      "q": "Mesma solução: 5 ampolas (250 mg) + 200 mL de SG 5%",
+      "rng": [
+        {
+          "l": "Dose alfa (α1): vasoconstrição",
+          "lo": 10,
+          "hi": 20,
+          "t": "máx. 20"
+        }
+      ],
+      "prep": [
+        "Mesma solução da dopamina (1.000 mcg/mL).",
+        "Acima de 10 mcg/kg/min predomina a vasoconstrição.",
+        "Acima de 20 mcg/kg/min: preferir noradrenalina."
+      ],
+      "ef": [
+        "Vasoconstrição intensa e isquemia de extremidades",
+        "Taquiarritmias",
+        "Hipertensão",
+        "Redução da perfusão renal e esplâncnica",
+        "Necrose por extravasamento"
+      ]
+    },
+    {
+      "n": "Dobutamina",
+      "cls": "Inotrópico",
+      "k": "i",
+      "u": "mcg/kg/min",
+      "w": 1,
+      "c": 1000,
+      "cc": "1.000 mcg/mL",
+      "via": "Acesso periférico calibroso ou central",
+      "q": "1 ampola (250 mg/20 mL) + 230 mL de SG 5% ou SF = 250 mL",
+      "rng": [
+        {
+          "l": "Inotrópico usual",
+          "lo": 2.5,
+          "hi": 10
+        },
+        {
+          "l": "Dose alta",
+          "lo": 10,
+          "hi": 20
+        }
+      ],
+      "prep": [
+        "Ampola de 250 mg/20 mL (12,5 mg/mL).",
+        "Aspirar 20 mL (1 ampola).",
+        "Completar com 230 mL de SG 5% ou SF até 250 mL.",
+        "Concentração final: 1.000 mcg/mL.",
+        "Bomba de infusão; usar a solução em até 24 h."
+      ],
+      "ef": [
+        "Taquicardia e arritmias ventriculares",
+        "Hipotensão (vasodilatação β2)",
+        "Isquemia miocárdica",
+        "Hipocalemia",
+        "Tolerância após 48–72 h",
+        "Tremor e cefaleia"
+      ]
+    },
+    {
+      "n": "Milrinona",
+      "cls": "Inotrópico",
+      "k": "i",
+      "u": "mcg/kg/min",
+      "w": 1,
+      "c": 200,
+      "cc": "200 mcg/mL",
+      "via": "Periférico ou central",
+      "q": "1 ampola (20 mg/20 mL) + 80 mL de SF = 100 mL",
+      "rng": [
+        {
+          "l": "Inotrópico e vasodilatador",
+          "lo": 0.25,
+          "hi": 0.75,
+          "t": "reduzir na insuficiência renal"
+        }
+      ],
+      "prep": [
+        "Ampola de 20 mg/20 mL (1 mg/mL).",
+        "Aspirar 20 mL e completar com 80 mL de SF ou SG 5% (100 mL).",
+        "Concentração final: 200 mcg/mL.",
+        "Evitar bolus em paciente instável."
+      ],
+      "ef": [
+        "Hipotensão",
+        "Arritmias ventriculares",
+        "Trombocitopenia",
+        "Cefaleia",
+        "Acúmulo na insuficiência renal"
+      ]
+    },
+    {
+      "n": "Vasopressina",
+      "cls": "Vasopressor",
+      "k": "p",
+      "u": "U/min",
+      "w": 0,
+      "c": 0.2,
+      "cc": "0,2 U/mL",
+      "via": "Acesso central preferencial",
+      "q": "1 ampola (20 U) + 99 mL de SF = 100 mL",
+      "rng": [
+        {
+          "l": "Choque séptico",
+          "lo": 0.01,
+          "hi": 0.04,
+          "t": "usual 0,03"
+        }
+      ],
+      "prep": [
+        "Ampola de 20 U/mL.",
+        "Aspirar 1 mL (20 U) e completar com 99 mL de SF (100 mL).",
+        "Concentração final: 0,2 U/mL.",
+        "Dose fixa, não titular pelo peso; não passar de 0,04 U/min."
+      ],
+      "ef": [
+        "Isquemia mesentérica, cutânea, digital e coronária",
+        "Hiponatremia",
+        "Redução do débito cardíaco e bradicardia",
+        "Aumento de enzimas hepáticas",
+        "Necrose cutânea por extravasamento"
+      ]
+    },
+    {
+      "n": "Nitroprussiato de sódio",
+      "cls": "Vasodilatador",
+      "k": "d",
+      "u": "mcg/kg/min",
+      "w": 1,
+      "c": 200,
+      "cc": "200 mcg/mL",
+      "via": "Acesso exclusivo, monitorar PA invasiva",
+      "q": "1 ampola (50 mg) + 250 mL de SG 5%, protegida da luz",
+      "rng": [
+        {
+          "l": "Início e uso usual",
+          "lo": 0.3,
+          "hi": 3
+        },
+        {
+          "l": "Dose alta (curto prazo)",
+          "lo": 3,
+          "hi": 10,
+          "t": "máx. 10 por até 10 min"
+        }
+      ],
+      "prep": [
+        "Ampola de 50 mg (pó).",
+        "Reconstituir com 2 mL de SG 5%.",
+        "Diluir em 250 mL de SG 5% (concentração final 200 mcg/mL).",
+        "Proteger da luz (frasco e equipo fotoprotegidos).",
+        "Usar em até 24 h; descartar se mudar de cor.",
+        "Titular com monitorização contínua da PA."
+      ],
+      "ef": [
+        "Hipotensão excessiva",
+        "Intoxicação por cianeto e tiocianato (acidose lática, confusão, convulsão), sobretudo acima de 2 mcg/kg/min por mais de 24–48 h ou na insuficiência renal",
+        "Taquicardia reflexa",
+        "Metemoglobinemia",
+        "Aumento da PIC e piora de shunt pulmonar"
+      ]
+    },
+    {
+      "n": "Nitroglicerina",
+      "cls": "Vasodilatador",
+      "k": "d",
+      "u": "mcg/min",
+      "w": 0,
+      "c": 200,
+      "cc": "200 mcg/mL",
+      "via": "Periférico ou central",
+      "q": "1 ampola (50 mg/10 mL) + 240 mL de SG 5% = 250 mL",
+      "rng": [
+        {
+          "l": "Início",
+          "lo": 5,
+          "hi": 20
+        },
+        {
+          "l": "Usual",
+          "lo": 20,
+          "hi": 100
+        },
+        {
+          "l": "Dose alta",
+          "lo": 100,
+          "hi": 200
+        }
+      ],
+      "prep": [
+        "Ampola de 50 mg/10 mL (5 mg/mL).",
+        "Aspirar 10 mL e completar com 240 mL de SG 5% (250 mL).",
+        "Concentração final: 200 mcg/mL.",
+        "Usar frasco de vidro e equipo próprio (adsorve no PVC).",
+        "Dose fixa em mcg/min, não depende do peso."
+      ],
+      "ef": [
+        "Cefaleia",
+        "Hipotensão",
+        "Taquicardia reflexa",
+        "Tolerância com uso prolongado",
+        "Piora da hipoxemia (shunt)",
+        "Metemoglobinemia rara"
+      ]
+    },
+    {
+      "n": "Dexmedetomidina",
+      "cls": "Sedoanalgesia",
+      "k": "s",
+      "u": "mcg/kg/h",
+      "w": 1,
+      "h": 1,
+      "c": 4,
+      "cc": "4 mcg/mL",
+      "via": "Periférico ou central",
+      "q": "1 ampola (200 mcg/2 mL) + 48 mL de SF = 50 mL",
+      "rng": [
+        {
+          "l": "Sedação contínua",
+          "lo": 0.2,
+          "hi": 1.4,
+          "t": "iniciar com 0,2–0,7"
+        }
+      ],
+      "prep": [
+        "Ampola de 100 mcg/mL, 2 mL (200 mcg).",
+        "Aspirar 2 mL e completar com 48 mL de SF (50 mL).",
+        "Concentração final: 4 mcg/mL.",
+        "Bomba de infusão. Evitar bolus em paciente instável."
+      ],
+      "ef": [
+        "Bradicardia e BAV",
+        "Hipotensão (e hipertensão transitória no bolus)",
+        "Boca seca",
+        "Pouco efeito sobre a respiração, mas sem amnésia garantida",
+        "Retirada abrupta pode causar rebote"
+      ]
+    },
+    {
+      "n": "Midazolam (infusão)",
+      "cls": "Sedoanalgesia",
+      "k": "s",
+      "u": "mg/kg/h",
+      "w": 1,
+      "h": 1,
+      "c": 1,
+      "cc": "1 mg/mL",
+      "via": "Periférico ou central",
+      "q": "1 ampola (50 mg/10 mL) + 40 mL de SF = 50 mL",
+      "rng": [
+        {
+          "l": "Sedação contínua",
+          "lo": 0.02,
+          "hi": 0.2
+        }
+      ],
+      "prep": [
+        "Ampola de 5 mg/mL, 10 mL (50 mg).",
+        "Aspirar 10 mL e completar com 40 mL de SF (50 mL).",
+        "Concentração final: 1 mg/mL.",
+        "Bomba de infusão."
+      ],
+      "ef": [
+        "Depressão respiratória",
+        "Hipotensão",
+        "Acúmulo em obesos, idosos e na insuficiência renal ou hepática",
+        "Tolerância e abstinência",
+        "Delirium"
+      ]
+    },
+    {
+      "n": "Fentanil (infusão)",
+      "cls": "Sedoanalgesia",
+      "k": "s",
+      "u": "mcg/kg/h",
+      "w": 1,
+      "h": 1,
+      "c": 10,
+      "cc": "10 mcg/mL",
+      "via": "Periférico ou central",
+      "q": "1 ampola (500 mcg/10 mL) + 40 mL de SF = 50 mL",
+      "rng": [
+        {
+          "l": "Analgesia contínua",
+          "lo": 1,
+          "hi": 3
+        }
+      ],
+      "prep": [
+        "Ampola de 0,05 mg/mL, 10 mL (500 mcg).",
+        "Aspirar 10 mL e completar com 40 mL de SF (50 mL).",
+        "Concentração final: 10 mcg/mL.",
+        "Bomba de infusão."
+      ],
+      "ef": [
+        "Depressão respiratória",
+        "Bradicardia e hipotensão",
+        "Rigidez torácica em bolus rápido",
+        "Náuseas, íleo e retenção urinária",
+        "Tolerância e abstinência"
+      ]
+    },
+    {
+      "n": "Propofol (infusão)",
+      "cls": "Sedoanalgesia",
+      "k": "s",
+      "u": "mg/kg/h",
+      "w": 1,
+      "h": 1,
+      "c": 10,
+      "cc": "10 mg/mL",
+      "via": "Acesso exclusivo, periférico ou central",
+      "q": "Sem diluir (10 mg/mL), em seringa ou frasco",
+      "rng": [
+        {
+          "l": "Sedação contínua",
+          "lo": 0.3,
+          "hi": 3,
+          "t": "evitar acima de 4"
+        }
+      ],
+      "prep": [
+        "Ampola de 10 mg/mL, 20 mL.",
+        "Usar sem diluir, com técnica asséptica.",
+        "Trocar frasco e equipo a cada 12 h.",
+        "Considerar as calorias dos lipídios e os triglicerídeos."
+      ],
+      "ef": [
+        "Hipotensão e bradicardia",
+        "Depressão respiratória",
+        "Hipertrigliceridemia e pancreatite",
+        "Síndrome da infusão do propofol (altas doses por mais de 48 h)",
+        "Dor à injeção"
+      ]
+    }
+  ],
+  "bundleRelease": "2026-11-15.1"
+}

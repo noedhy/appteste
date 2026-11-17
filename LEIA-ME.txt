@@ -1,0 +1,40 @@
+DOSE PS — VERSÃO ATUALIZADA — 26/10/2026
+
+Mensagem de acesso gratuito temporário removida.
+
+Extraia e publique mantendo index.html na raiz. Hospedagem estática com HTTPS, sem comando de build. Preserve as subpastas e arquivos.
+
+Este pacote mantém a configuração atual do serviço de contas e conteúdo. Não inclui o banco remoto. Login e sincronização precisam de internet e do serviço atual. Autorize o novo endereço nas URLs de redirecionamento do serviço de autenticação para confirmação de cadastro e recuperação de senha.
+
+Abra online antes de testar o cache offline. Este ZIP contém o site/PWA, não um instalador Android/iOS.
+
+
+ATUALIZAÇÃO 11/11/2026 — catálogo local v2026-11-11.2
+- Publicar TODOS os arquivos extraídos, mantendo data/drugs.json e sw.js na raiz relativa indicada.
+- A prioridade é do catálogo do ZIP; uma versão antiga da nuvem não deve sobrescrevê-lo.
+- Na tela de doses aparece a identificação do catálogo ao final: 2026-11-11.2.
+- Após publicar na Netlify, abrir Safari com rede e atualizar duas vezes caso ainda apareça uma tela antiga. Se necessário, remover dados do site/atalho PWA antigo e abrir novamente.
+- Primeiro acesso com rede permite cache para uso offline; login e funções de conta podem precisar de internet.
+- Ler REVISAO_MEDICAMENTOS_2026-11-11.txt antes de uso clínico.
+
+
+NOVO 11/11/2026: PREENCHER APAC
+- Abra o menu lateral > Preencher APAC.
+- Preencha o formulário dividido em seções e toque Gerar PDF.
+- Abra o PDF gerado no Safari e use Compartilhar > Imprimir.
+- PDF A4 reproduz a PÁGINA 1 do formulário enviado, sem criar página 2.
+- A geração é local, sem envio de dados preenchidos pelo gerador.
+- O preenchimento não concede autorização APAC e não substitui assinatura/carimbo.
+- Verifique todos os campos do PDF impresso antes de usá-lo.
+- O gerador usa images/apac-formulario.jpg (imagem limpa do modelo) e apac.js; mantenha os arquivos no deploy e no cache offline.
+- Registros do paciente NÃO são gravados pelo módulo, e podem se perder ao atualizar a página.
+
+
+ATUALIZAÇÃO 11/11/2026 — 4: IPRATRÓPIO EM GOTAS + APAC DESTACADA
+- Ipratrópio inalatório 0,25 mg/mL: agora mostra 40 gotas para adultos no lugar de mL.
+- Pediatria: doses em gotas por FAIXA ETÁRIA (<6 anos 8–20; 6–12 anos 20; >12 anos 40), evitando deduzir idade pelo peso.
+- 20 gotas = 1 mL; 40 gotas = 2 mL (0,5 mg). Bula: completar com SF 0,9% para volume FINAL 3–4 mL (não adicionar automaticamente 5 mL).
+- Fonte: https://www.ache.com.br/produto/genericos-sob-prescricao/brometo-de-ipratropio/
+- APAC: campos essenciais em fundo amarelo claro, aviso no topo e conferência das marcações obrigatórias antes de gerar PDF.
+- O destaque amarelo é só no formulário digital; PDF impresso usa o modelo preto e branco original.
+- Atualize todos os arquivos no Netlify. Caso Safari mantenha interface antiga, limpe os dados do site/cache ou recarregue online.

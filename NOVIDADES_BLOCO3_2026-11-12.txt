@@ -1,0 +1,37 @@
+Dose PS — Novas Emergências | Bloco 3 | revisão editorial 2026-11-12.5
+
+BASE: Dose_PS_EMERGENCIAS_BLOCO2_METABOLICAS_SEPSE_12-11-2026.zip.
+Preservados: dados de medicamentos, APAC, protocolos e calculadoras anteriores, menus, modo claro/escuro e service worker para uso offline.
+
+6 NOVOS TEMAS (15 CENÁRIOS):
+- AVC isquêmico: até 4,5 h, oclusão de grande vaso/janela estendida, sem reperfusão.
+- Hemorragia intracerebral espontânea: geral, uso de anticoagulantes.
+- Pré-eclâmpsia com sinais de gravidade: hipertensão grave, suspeita de HELLP.
+- Eclâmpsia: primeira crise, crise recorrente.
+- Bronquiolite: leve, hipóxia/baixa ingestão, apneia/falência respiratória.
+- Crupe: leve, moderado, grave/ameaça à via aérea.
+
+TODAS as páginas têm reconhecimento, fluxograma, doses/preparo onde aplicáveis, contraindicações/segurança, monitorização, regulação e links de referência.
+
+FERRAMENTAS NOVAS:
+- Conferência de dose de alteplase e tenecteplase para AVC isquêmico, somente após confirmar elegibilidade e imagem, com limite de dose e diretriz AHA/ASA 2026.
+- Calculadora por peso para dexametasona e adrenalina NEBULIZADA no crupe (idade obrigatória), com limites e bloqueio em menores de 6 meses.
+- Higienização da escolha de peso ao trocar de tema, para não transportar peso adulto para a ferramenta pediátrica.
+
+SEGURANÇA:
+- A ferramenta NÃO avalia se o paciente é elegível para trombólise, NÃO escolhe uma medicação e NÃO substitui prontuário, bula, protocolo institucional ou dupla conferência.
+- Conferir apresentação, concentração final, via e idade antes de cada prescrição ou bomba.
+- Alguns protocolos diferem entre países; equipes locais devem validar diretrizes, apresentações, fluxos e critérios de encaminhamento antes do uso assistencial.
+- Áreas ainda marcadas "Em preparação" continuam assim; não há protocolo inventado.
+
+TESTES: 19 arquivos JS e o arquivo novo checados quanto à sintaxe, renderização simulada dos 15 cenários, cálculos com doses-limite e integridade do ZIP. A navegação integral em navegador não foi testada: o ambiente bloqueou a execução de páginas locais/localhost.
+
+PUBLICAÇÃO: extraia o ZIP e publique o conteúdo extraído no Netlify; confira o rodapé "2026-11-12.5"; limpe cache se necessário. O endereço online não é atualizado automaticamente.
+
+FONTES PRINCIPAIS:
+https://www.ahajournals.org/doi/10.1161/STR.0000000000000513
+https://www.ahajournals.org/doi/10.1161/STR.0000000000000407
+https://linhasdecuidado.saude.gov.br/portal/pre-natal-baixo-risco/unidade-hospitalar/planejamento-terapeutico/
+https://www.nice.org.uk/guidance/ng9/chapter/recommendations
+https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12397848/

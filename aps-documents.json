@@ -1,0 +1,92 @@
+[
+  {
+    "id": "mrpa",
+    "title": "MRPA - registro de 7 dias",
+    "description": "Duas medidas pela manhã e duas à noite, conforme orientação da equipe.",
+    "file": "aps-documentos/mrpa.pdf"
+  },
+  {
+    "id": "mapa-glicemia-adulto",
+    "title": "Mapa de glicemia - adulto",
+    "description": "Registro de 14 dias. Horários, frequência e metas devem ser individualizados.",
+    "file": "aps-documentos/mapa-glicemia-adulto.pdf"
+  },
+  {
+    "id": "mapa-glicemia-gestante-1h",
+    "title": "Mapa de glicemia - gestante (1h)",
+    "description": "Jejum e após as três refeições principais. Registro de 14 dias.",
+    "file": "aps-documentos/mapa-glicemia-gestante-1h.pdf"
+  },
+  {
+    "id": "mapa-glicemia-gestante-2h",
+    "title": "Mapa de glicemia - gestante (2h)",
+    "description": "Jejum e após as três refeições principais. Registro de 14 dias.",
+    "file": "aps-documentos/mapa-glicemia-gestante-2h.pdf"
+  },
+  {
+    "id": "higiene-do-sono",
+    "title": "Orientações de higiene do sono",
+    "description": "Hábitos para organizar o descanso. Adapte à sua rotina e ao seu tratamento.",
+    "file": "aps-documentos/higiene-do-sono.pdf"
+  },
+  {
+    "id": "diario-do-sono",
+    "title": "Diário do sono",
+    "description": "Preencha pela manhã durante 14 dias; use estimativas, sem vigiar o relógio.",
+    "file": "aps-documentos/diario-do-sono.pdf"
+  },
+  {
+    "id": "organizador-medicamentos",
+    "title": "Organizador de medicamentos",
+    "description": "Reconciliação e plano de horários para preencher com a equipe.",
+    "file": "aps-documentos/organizador-medicamentos.pdf"
+  },
+  {
+    "id": "diario-cefaleia",
+    "title": "Diário de cefaleia",
+    "description": "Registro dos episódios para apoiar a consulta.",
+    "file": "aps-documentos/diario-cefaleia.pdf"
+  },
+  {
+    "id": "plano-cuidado-aps",
+    "title": "Plano de cuidado - APS",
+    "description": "Metas pactuadas e pendências para acompanhamento longitudinal.",
+    "file": "aps-documentos/plano-cuidado-aps.pdf"
+  },
+  {
+    "id": "registro-puericultura",
+    "title": "Acompanhamento da criança",
+    "description": "Consultas, crescimento e desenvolvimento: registro para levar à UBS.",
+    "file": "aps-documentos/registro-puericultura.pdf"
+  },
+  {
+    "id": "checklist-pre-natal",
+    "title": "Meu acompanhamento pré-natal",
+    "description": "Pendências e retornos pactuados com a equipe.",
+    "file": "aps-documentos/checklist-pre-natal.pdf"
+  },
+  {
+    "id": "controle-rastreios",
+    "title": "Controle de exames de rastreio",
+    "description": "Registre a indicação individual e evite repetir exames antes do prazo.",
+    "file": "aps-documentos/controle-rastreios.pdf"
+  },
+  {
+    "id": "diario-sintomas-urinarios",
+    "title": "Diário miccional",
+    "description": "Registro de 3 dias para avaliar hábitos e sintomas urinários.",
+    "file": "aps-documentos/diario-sintomas-urinarios.pdf"
+  },
+  {
+    "id": "prevencao-quedas",
+    "title": "Prevenção de quedas em casa",
+    "description": "Revisão simples para paciente e família.",
+    "file": "aps-documentos/prevencao-quedas.pdf"
+  },
+  {
+    "id": "plano-alimentacao-rotina",
+    "title": "Plano de hábitos e alimentação",
+    "description": "Metas simples para acompanhar junto à equipe, sem dietas universais.",
+    "file": "aps-documentos/plano-alimentacao-rotina.pdf"
+  }
+]
